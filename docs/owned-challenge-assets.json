@@ -1,0 +1,107 @@
+[
+  {
+    "id": "101101",
+    "tier": "CHALLENGER",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101101/tokens/challenger.png"
+  },
+  {
+    "id": "101102",
+    "tier": "MASTER",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101102/tokens/master.png"
+  },
+  {
+    "id": "101103",
+    "tier": "GRANDMASTER",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101103/tokens/grandmaster.png"
+  },
+  {
+    "id": "101104",
+    "tier": "MASTER",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101104/tokens/master.png"
+  },
+  {
+    "id": "101105",
+    "tier": "MASTER",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101105/tokens/master.png"
+  },
+  {
+    "id": "101106",
+    "tier": "GRANDMASTER",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101106/tokens/grandmaster.png"
+  },
+  {
+    "id": "101107",
+    "tier": "GRANDMASTER",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101107/tokens/grandmaster.png"
+  },
+  {
+    "id": "101108",
+    "tier": "CHALLENGER",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101108/tokens/challenger.png"
+  },
+  {
+    "id": "101201",
+    "tier": "MASTER",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101201/tokens/master.png"
+  },
+  {
+    "id": "101202",
+    "tier": "GRANDMASTER",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101202/tokens/grandmaster.png"
+  },
+  {
+    "id": "101203",
+    "tier": "GRANDMASTER",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101203/tokens/grandmaster.png"
+  },
+  {
+    "id": "101204",
+    "tier": "MASTER",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101204/tokens/master.png"
+  },
+  {
+    "id": "101205",
+    "tier": "PLATINUM",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101205/tokens/platinum.png"
+  },
+  {
+    "id": "101206",
+    "tier": "BRONZE",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101206/tokens/bronze.png"
+  },
+  {
+    "id": "101301",
+    "tier": "DIAMOND",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101301/tokens/diamond.png"
+  },
+  {
+    "id": "101302",
+    "tier": "GRANDMASTER",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101302/tokens/grandmaster.png"
+  },
+  {
+    "id": "101303",
+    "tier": "MASTER",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101303/tokens/master.png"
+  },
+  {
+    "id": "101304",
+    "tier": "GRANDMASTER",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101304/tokens/grandmaster.png"
+  },
+  {
+    "id": "101305",
+    "tier": "PLATINUM",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101305/tokens/platinum.png"
+  },
+  {
+    "id": "101306",
+    "tier": "MASTER",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101306/tokens/master.png"
+  },
+  {
+    "id": "101307",
+    "tier": "GRANDMASTER",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101307/tokens/grandmaster.png"
+  }
+]

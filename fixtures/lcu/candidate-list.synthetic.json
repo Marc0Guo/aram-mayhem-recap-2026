@@ -1,0 +1,10 @@
+{
+  "note": "synthetic list shape used to exercise the candidate parser",
+  "games": {
+    "games": [
+      { "gameId": "450001", "platformId": "NA1", "queueId": 450, "gameCreation": 1761000000000, "gameMode": "ARAM" },
+      { "gameId": "2400001", "platformId": "NA1", "queueId": 2400, "gameCreation": 1761001000000, "gameMode": "ARAM" },
+      { "gameId": "7770001", "platformId": "NA1", "queueId": 777, "gameCreation": 1761002000000 }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+name: Windows validation
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.20.0'
+      - uses: pnpm/action-setup@v4
+        with:
+          version: '10.18.2'
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - run: node scripts/native-smoke.cjs
+      - run: pnpm typecheck
+      - run: pnpm lint
+      - run: pnpm test
+      - run: pnpm build
+      - name: Parse Windows bootstrap
+        shell: powershell
+        run: |
+          $errors = $null
+          [System.Management.Automation.Language.Parser]::ParseFile((Join-Path $pwd 'scripts/start.ps1'), [ref]$null, [ref]$errors) | Out-Null
+          if ($errors.Count) { throw ($errors | Out-String) }

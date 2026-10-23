@@ -1,0 +1,23 @@
+{
+  "version": "2026-10-20.1",
+  "note": "Synthetic demo data. Not a League of Legends client capture. Augment and item names are placeholders.",
+  "account": {
+    "platformId": "DEMO",
+    "puuid": "demo-player",
+    "defaultAlias": "演示召唤师"
+  },
+  "matches": [
+    { "gameId": "demo-0001", "startOffsetHours": 240, "result": "win", "championId": 157, "augments": ["aug-prism", "aug-prism"], "items": [0, 1001, 1001, 3006, 3031, 0, 0] },
+    { "gameId": "demo-0002", "startOffsetHours": 220, "result": "win", "championId": 157, "augments": ["aug-prism"], "items": [0, 1001, 3006, 3031, 3072, 0, 0] },
+    { "gameId": "demo-0003", "startOffsetHours": 200, "result": "win", "championId": 157, "augments": ["aug-prism"], "items": [0, 3006, 3031, 3094, 0, 0, 0] },
+    { "gameId": "demo-0004", "startOffsetHours": 180, "result": "win", "championId": 157, "augments": ["aug-blade"], "items": [0, 1001, 3031, 3072, 0, 0, 0] },
+    { "gameId": "demo-0005", "startOffsetHours": 160, "result": "loss", "championId": 222, "augments": ["aug-blade"], "items": [0, 1001, 3094, 3006, 0, 0, 0] },
+    { "gameId": "demo-0006", "startOffsetHours": 140, "result": "loss", "championId": 222, "augments": ["aug-shield"], "items": [0, 3006, 3031, 0, 0, 0, 0] },
+    { "gameId": "demo-0007", "startOffsetHours": 120, "result": "win", "championId": 222, "augments": ["aug-shield"], "items": [0, 1001, 3072, 3094, 0, 0, 0] },
+    { "gameId": "demo-0008", "startOffsetHours": 100, "result": "win", "championId": 81, "augments": ["aug-tempo"], "items": [0, 3031, 3006, 1001, 0, 0, 0] },
+    { "gameId": "demo-0009", "startOffsetHours": 80, "result": "loss", "championId": 81, "augments": null, "items": [0, 1001, 3094, 0, 0, 0, 0] },
+    { "gameId": "demo-0010", "startOffsetHours": 60, "result": "win", "championId": 81, "augments": null, "items": [0, 3031, 3072, 3006, 0, 0, 0] },
+    { "gameId": "demo-0011", "startOffsetHours": 40, "result": "loss", "championId": 51, "augments": null, "items": [0, 1001, 3006, 3094, 0, 0, 0] },
+    { "gameId": "demo-0012", "startOffsetHours": 20, "result": "loss", "championId": 51, "augments": null, "items": [0, 3031, 1001, 0, 0, 0, 0] }
+  ]
+}

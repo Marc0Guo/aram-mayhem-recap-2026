@@ -1,0 +1,5 @@
+---
+description: Shared onboarding for ARAM Mayhem Recap
+alwaysApply: true
+---
+Read and follow AGENTS.md at the repository root. Use its Windows bootstrap, source map, privacy rules and validation commands. Current user requirements take precedence over the historical PRD.

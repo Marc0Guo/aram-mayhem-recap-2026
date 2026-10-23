@@ -1,0 +1,74 @@
+[
+  {
+    "id": "101101",
+    "name": "DPS Threat",
+    "description": "Deal more than 1800 DPM",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101101/tokens/platinum.png"
+  },
+  {
+    "id": "101107",
+    "name": "Farm Champs Not Minions",
+    "description": "Get Takedowns",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101107/tokens/platinum.png"
+  },
+  {
+    "id": "101106",
+    "name": "ARAM Eradication",
+    "description": "Get Pentakills",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101106/tokens/platinum.png"
+  },
+  {
+    "id": "101304",
+    "name": "Lightning Round",
+    "description": "Win games before 13 min",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101304/tokens/platinum.png"
+  },
+  {
+    "id": "101307",
+    "name": "NA-RAM",
+    "description": "Win games",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101307/tokens/platinum.png"
+  },
+  {
+    "id": "101108",
+    "name": "Solo Carry",
+    "description": "Deal 40%+ of your team's champion damage",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101108/tokens/platinum.png"
+  },
+  {
+    "id": "101202",
+    "name": "It was a... Near-Hit",
+    "description": "Dodge skillshots",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101202/tokens/platinum.png"
+  },
+  {
+    "id": "101203",
+    "name": "Snow Day",
+    "description": "Hit snowballs on champions",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101203/tokens/platinum.png"
+  },
+  {
+    "id": "101201",
+    "name": "Another Day, Another Bullseye",
+    "description": "Hit skillshots on champions",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101201/tokens/platinum.png"
+  },
+  {
+    "id": "101102",
+    "name": "Double Decimation",
+    "description": "Get two Pentakills in a single game",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101102/tokens/platinum.png"
+  },
+  {
+    "id": "101204",
+    "name": "Free Money",
+    "description": "Kill minions",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101204/tokens/platinum.png"
+  },
+  {
+    "id": "101103",
+    "name": "ARAM Legend",
+    "description": "Go Legendary",
+    "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101103/tokens/platinum.png"
+  }
+]

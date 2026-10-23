@@ -1,0 +1,77 @@
+{
+  "providerVersion": "16.21",
+  "verifiedAt": "2026-10-23T10:00:32.992Z",
+  "metadata": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/v1/challenges.json",
+  "icons": {
+    "tenKills": {
+      "challengeId": "101107",
+      "name": "Farm Champs Not Minions",
+      "source": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101107/tokens/platinum.png",
+      "tier": "PLATINUM",
+      "use": "illustration for local match milestone, not earned account challenge rank"
+    },
+    "firstTower": {
+      "challengeId": "101303",
+      "name": "Rapid Demolition",
+      "source": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101303/tokens/platinum.png",
+      "tier": "PLATINUM",
+      "use": "illustration for local match milestone, not earned account challenge rank"
+    },
+    "turret": {
+      "challengeId": "402210",
+      "name": "Turret Toppler",
+      "source": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/402210/tokens/platinum.png",
+      "tier": "PLATINUM",
+      "use": "illustration for local match milestone, not earned account challenge rank"
+    },
+    "highDamage": {
+      "challengeId": "101101",
+      "name": "DPS Threat",
+      "source": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101101/tokens/platinum.png",
+      "tier": "PLATINUM",
+      "use": "illustration for local match milestone, not earned account challenge rank"
+    },
+    "quadra": {
+      "challengeId": "101106",
+      "name": "ARAM Eradication",
+      "source": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101106/tokens/platinum.png",
+      "tier": "PLATINUM",
+      "use": "illustration for local match milestone, not earned account challenge rank"
+    },
+    "triple": {
+      "challengeId": "101106",
+      "name": "ARAM Eradication",
+      "source": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101106/tokens/platinum.png",
+      "tier": "PLATINUM",
+      "use": "illustration for local match milestone, not earned account challenge rank"
+    },
+    "penta": {
+      "challengeId": "101106",
+      "name": "ARAM Eradication",
+      "source": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101106/tokens/platinum.png",
+      "tier": "PLATINUM",
+      "use": "illustration for local match milestone, not earned account challenge rank"
+    },
+    "quickGame": {
+      "challengeId": "101304",
+      "name": "Lightning Round",
+      "source": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101304/tokens/platinum.png",
+      "tier": "PLATINUM",
+      "use": "illustration for local match milestone, not earned account challenge rank"
+    },
+    "flawless": {
+      "challengeId": "201003",
+      "name": "Unkillable Demon King",
+      "source": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/201003/tokens/platinum.png",
+      "tier": "PLATINUM",
+      "use": "illustration for local match milestone, not earned account challenge rank"
+    },
+    "longGame": {
+      "challengeId": "101000",
+      "name": "ARAM Authority",
+      "source": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101000/tokens/platinum.png",
+      "tier": "PLATINUM",
+      "use": "illustration for local match milestone, not earned account challenge rank"
+    }
+  }
+}

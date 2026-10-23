@@ -1,0 +1,2972 @@
+{
+  "67": {
+    "rarity": "kGold",
+    "zh": "古式佳酿",
+    "en": "Rabble Rousing"
+  },
+  "3086": {
+    "rarity": "kGold",
+    "zh": "小蜜蜂！！！",
+    "en": "BEES!!!"
+  },
+  "3059": {
+    "rarity": "kSilver",
+    "zh": "没法力，没问题",
+    "en": "No Mana, No Problem"
+  },
+  "236": {
+    "rarity": "kGold",
+    "zh": "诡术恶魔",
+    "en": "Trickster Demon"
+  },
+  "1319": {
+    "rarity": "kSilver",
+    "zh": "升级：献祭",
+    "en": "Upgrade Immolate"
+  },
+  "27": {
+    "rarity": "kPrismatic",
+    "zh": "大地苏醒",
+    "en": "Earthwake"
+  },
+  "7012": {
+    "rarity": "kPrismatic",
+    "zh": "海克斯核心",
+    "en": "The Hex Core"
+  },
+  "217": {
+    "rarity": "kGold",
+    "zh": "死亡触摸",
+    "en": "Deathtouch"
+  },
+  "2008": {
+    "rarity": "kSilver",
+    "zh": "负重爆气",
+    "en": "Weighted Popoffs"
+  },
+  "2116": {
+    "rarity": "kGold",
+    "zh": "威能之追求",
+    "en": "Pursuit of Power"
+  },
+  "3051": {
+    "rarity": "kSilver",
+    "zh": "蓝色屏障",
+    "en": "Blue Barrier"
+  },
+  "377": {
+    "rarity": "kPrismatic",
+    "zh": "炒饭组合",
+    "en": "Combination Fried Rice"
+  },
+  "1023": {
+    "rarity": "kGold",
+    "zh": "魔鬼之舞",
+    "en": "Demon's Dance"
+  },
+  "1081": {
+    "rarity": "kPrismatic",
+    "zh": "踢踏舞",
+    "en": "Tap Dancer"
+  },
+  "165": {
+    "rarity": "kGold",
+    "zh": "重启",
+    "en": "Restart"
+  },
+  "103": {
+    "rarity": "kGold",
+    "zh": "面包和黄油",
+    "en": "Bread And Butter"
+  },
+  "1149": {
+    "rarity": "kGold",
+    "zh": "不动如山",
+    "en": "Impassable"
+  },
+  "1324": {
+    "rarity": "kPrismatic",
+    "zh": "蛋白粉奶昔",
+    "en": "Protein Shake"
+  },
+  "329": {
+    "rarity": "kPrismatic",
+    "zh": "死灵法师",
+    "en": "Necromancer"
+  },
+  "69": {
+    "rarity": "kSilver",
+    "zh": "退敌力场",
+    "en": "Repulsor"
+  },
+  "2064": {
+    "rarity": "kGold",
+    "zh": "快步",
+    "en": "Quickstep"
+  },
+  "3078": {
+    "rarity": "kGold",
+    "zh": "鼓声暴起 低音轰鸣",
+    "en": "The Boom and the Bass"
+  },
+  "368": {
+    "rarity": "kEventChoice",
+    "zh": "渴望财富",
+    "en": "Craving For Wealth"
+  },
+  "193": {
+    "rarity": "kPrismatic",
+    "zh": "星原之准",
+    "en": "Center of the Universe"
+  },
+  "2073": {
+    "rarity": "kSilver",
+    "zh": "虹吸",
+    "en": "Siphon"
+  },
+  "1019": {
+    "rarity": "kPrismatic",
+    "zh": "全凭身法",
+    "en": "Dashing"
+  },
+  "391": {
+    "rarity": "kSilver",
+    "zh": "白手起家",
+    "en": "Rags to Riches"
+  },
+  "1034": {
+    "rarity": "kSilver",
+    "zh": "防护面纱",
+    "en": "Veil of Warding"
+  },
+  "53": {
+    "rarity": "kPrismatic",
+    "zh": "科学狂人",
+    "en": "Mad Scientist"
+  },
+  "86": {
+    "rarity": "kPrismatic",
+    "zh": "精准奇才",
+    "en": "Trueshot Prodigy"
+  },
+  "301": {
+    "rarity": "kGold",
+    "zh": "神圣干预",
+    "en": "Divine Intervention"
+  },
+  "230": {
+    "rarity": "kPrismatic",
+    "zh": "弹幕天堂",
+    "en": "Bullet Heaven"
+  },
+  "1339": {
+    "rarity": "kPrismatic",
+    "zh": "激光治疗",
+    "en": "Laser Heal"
+  },
+  "2089": {
+    "rarity": "kGold",
+    "zh": "哎哟，我的硬币！",
+    "en": "Yowch, My Coins!"
+  },
+  "107": {
+    "rarity": "kGold",
+    "zh": "接二连三",
+    "en": "Twice Thrice"
+  },
+  "1025": {
+    "rarity": "kSilver",
+    "zh": "俯冲轰炸",
+    "en": "Dive Bomber"
+  },
+  "85": {
+    "rarity": "kSilver",
+    "zh": "折磨之叉",
+    "en": "Tormentor"
+  },
+  "2": {
+    "rarity": "kGold",
+    "zh": "尖端发明家",
+    "en": "Apex Inventor"
+  },
+  "1402": {
+    "rarity": "kPrismatic",
+    "zh": "属性叠属性叠属性！",
+    "en": "Stats on Stats on Stats!"
+  },
+  "13": {
+    "rarity": "kGold",
+    "zh": "星界躯体",
+    "en": "Celestial Body"
+  },
+  "7001": {
+    "rarity": "kSilver",
+    "zh": "升级：兹若特传送门",
+    "en": "Upgrade: Zz'Rot Portal"
+  },
+  "2104": {
+    "rarity": "kPrismatic",
+    "zh": "灵魄炸弹",
+    "en": "Spirit Bomb"
+  },
+  "1013": {
+    "rarity": "kGold",
+    "zh": "星界躯体",
+    "en": "Celestial Body"
+  },
+  "1361": {
+    "rarity": "kPrismatic",
+    "zh": "艾卡西亚的陷落",
+    "en": "Icathia's Fall"
+  },
+  "1045": {
+    "rarity": "kPrismatic",
+    "zh": "炼狱导管",
+    "en": "Infernal Conduit"
+  },
+  "1001": {
+    "rarity": "kPrismatic",
+    "zh": "泰坦的坚决",
+    "en": "Titan's Resolve"
+  },
+  "216": {
+    "rarity": "kPrismatic",
+    "zh": "恐惧使者",
+    "en": "Dreadbringer"
+  },
+  "125": {
+    "rarity": "kPrismatic",
+    "zh": "副本BOSS",
+    "en": "Raid Boss"
+  },
+  "83": {
+    "rarity": "kPrismatic",
+    "zh": "窃贼手套",
+    "en": "Thief's Gloves"
+  },
+  "372": {
+    "rarity": "kEventChoice",
+    "zh": "强求权力",
+    "en": "Compulsion For Power"
+  },
+  "1181": {
+    "rarity": "kSilver",
+    "zh": "重量级打击手",
+    "en": "Heavy Hitter"
+  },
+  "3094": {
+    "rarity": "kSilver",
+    "zh": "巫妖大脑",
+    "en": "Lich Brain"
+  },
+  "3049": {
+    "rarity": "kGold",
+    "zh": "装甲冲击",
+    "en": "Armored Impact"
+  },
+  "1048": {
+    "rarity": "kPrismatic",
+    "zh": "珠光护手",
+    "en": "Jeweled Gauntlet"
+  },
+  "316": {
+    "rarity": "kSilver",
+    "zh": "烈性毒液",
+    "en": "Grievous Venom"
+  },
+  "2119": {
+    "rarity": "kGold",
+    "zh": "过量延伸者",
+    "en": "Overextender"
+  },
+  "1108": {
+    "rarity": "kSilver",
+    "zh": "自我毁灭",
+    "en": "Self Destruct"
+  },
+  "3053": {
+    "rarity": "kPrismatic",
+    "zh": "热舞怪兽",
+    "en": "Mosh Monster"
+  },
+  "1115": {
+    "rarity": "kPrismatic",
+    "zh": "最万用的瞄准镜",
+    "en": "Scopiest Weapons"
+  },
+  "3004": {
+    "rarity": "kGold",
+    "zh": "罪恶快感！",
+    "en": "Get Jinxed"
+  },
+  "1206": {
+    "rarity": "kSilver",
+    "zh": "魔法转物理",
+    "en": "escAPADe"
+  },
+  "2103": {
+    "rarity": "kGold",
+    "zh": "狙神飞星",
+    "en": "From Downtown"
+  },
+  "1418": {
+    "rarity": "kSilver",
+    "zh": "砸开那颗蛋",
+    "en": "Crack Open That Egg"
+  },
+  "34": {
+    "rarity": "kSilver",
+    "zh": "堕落圣盾",
+    "en": "Fallen Aegis"
+  },
+  "151": {
+    "rarity": "kGold",
+    "zh": "面包和奶酪",
+    "en": "Bread And Cheese"
+  },
+  "2131": {
+    "rarity": "kSilver",
+    "zh": "别停止引导",
+    "en": "Don't Change the Channel"
+  },
+  "369": {
+    "rarity": "kEventChoice",
+    "zh": "渴望权力",
+    "en": "Craving For Power"
+  },
+  "344": {
+    "rarity": "kSilver",
+    "zh": "能量充沛",
+    "en": "Energetic"
+  },
+  "324": {
+    "rarity": "kSilver",
+    "zh": "勇中最勇",
+    "en": "Bravest of the Brave"
+  },
+  "315": {
+    "rarity": "kGold",
+    "zh": "盈能施法者",
+    "en": "Energetic Caster"
+  },
+  "138": {
+    "rarity": "kSilver",
+    "zh": "渴血",
+    "en": "Goredrink"
+  },
+  "2126": {
+    "rarity": "kGold",
+    "zh": "装填",
+    "en": "Reload"
+  },
+  "204": {
+    "rarity": "kSilver",
+    "zh": "叠角龙",
+    "en": "Stackosaurus Rex"
+  },
+  "1085": {
+    "rarity": "kSilver",
+    "zh": "折磨者",
+    "en": "Tormentor"
+  },
+  "1225": {
+    "rarity": "kPrismatic",
+    "zh": "双刀流",
+    "en": "Dual Wield"
+  },
+  "1104": {
+    "rarity": "kGold",
+    "zh": "仆从大师",
+    "en": "Minionmancer"
+  },
+  "47": {
+    "rarity": "kGold",
+    "zh": "关键暴击",
+    "en": "It's Critical"
+  },
+  "343": {
+    "rarity": "kPrismatic",
+    "zh": "正义之怒",
+    "en": "Righteous Fury"
+  },
+  "220": {
+    "rarity": "kPrismatic",
+    "zh": "连拨击锤",
+    "en": "Fan the Hammer"
+  },
+  "234": {
+    "rarity": "kPrismatic",
+    "zh": "财运锻造器",
+    "en": "Gamba Anvil"
+  },
+  "359": {
+    "rarity": "kEventChoice",
+    "zh": "羊灵生息",
+    "en": "Lamb's Respite"
+  },
+  "1372": {
+    "rarity": "kPrismatic",
+    "zh": "小猫咪找妈妈",
+    "en": "I'm a Baby Kitty Where is Mama"
+  },
+  "1344": {
+    "rarity": "kPrismatic",
+    "zh": "最终形态",
+    "en": "Final Form"
+  },
+  "1409": {
+    "rarity": "kGold",
+    "zh": "魄罗爆破手",
+    "en": "Poro Blaster"
+  },
+  "24": {
+    "rarity": "kGold",
+    "zh": "择日赴死",
+    "en": "Die Another Day"
+  },
+  "18": {
+    "rarity": "kPrismatic",
+    "zh": "巨像的勇气",
+    "en": "Courage of the Colossus"
+  },
+  "345": {
+    "rarity": "kPrismatic",
+    "zh": "魔法少女",
+    "en": "Magical Girl"
+  },
+  "2099": {
+    "rarity": "kPrismatic",
+    "zh": "飞升仪式",
+    "en": "Rite of Ascension"
+  },
+  "2134": {
+    "rarity": "kPrismatic",
+    "zh": "电涌力场",
+    "en": "Surge Field"
+  },
+  "2003": {
+    "rarity": "kPrismatic",
+    "zh": "魄罗之王的弹跳",
+    "en": "Bounce of the Poro King"
+  },
+  "1134": {
+    "rarity": "kPrismatic",
+    "zh": "亮出你的剑",
+    "en": "Draw Your Sword"
+  },
+  "1384": {
+    "rarity": "kGold",
+    "zh": "捐赠",
+    "en": "Donation"
+  },
+  "336": {
+    "rarity": "kGold",
+    "zh": "瞄准脑袋",
+    "en": "Aim for the Head"
+  },
+  "1086": {
+    "rarity": "kPrismatic",
+    "zh": "精准奇才",
+    "en": "Trueshot Prodigy"
+  },
+  "4": {
+    "rarity": "kPrismatic",
+    "zh": "回归基本功",
+    "en": "Back To Basics"
+  },
+  "2076": {
+    "rarity": "kSilver",
+    "zh": "保持坚定",
+    "en": "Stay Resolute"
+  },
+  "76": {
+    "rarity": "kSilver",
+    "zh": "天音爆",
+    "en": "Sonic Boom"
+  },
+  "91": {
+    "rarity": "kSilver",
+    "zh": "良性循环",
+    "en": "Virtuous Cycle"
+  },
+  "1305": {
+    "rarity": "kSilver",
+    "zh": "练腿日",
+    "en": "Leg Day"
+  },
+  "2144": {
+    "rarity": "kSilver",
+    "zh": "加固护盾",
+    "en": "Bolstered"
+  },
+  "346": {
+    "rarity": "kPrismatic",
+    "zh": "面包三明治",
+    "en": "Bread Sandwich"
+  },
+  "60": {
+    "rarity": "kSilver",
+    "zh": "海洋龙魂",
+    "en": "Ocean Soul"
+  },
+  "219": {
+    "rarity": "kPrismatic",
+    "zh": "末日预言者",
+    "en": "Doomsayer"
+  },
+  "3": {
+    "rarity": "kSilver",
+    "zh": "虚无强化符文",
+    "en": "Null Augment"
+  },
+  "1340": {
+    "rarity": "kPrismatic",
+    "zh": "升级：米凯尔的祝福",
+    "en": "Upgrade Mikael's Blessing"
+  },
+  "250": {
+    "rarity": "kGold",
+    "zh": "一板一眼",
+    "en": "Slow and Steady"
+  },
+  "36": {
+    "rarity": "kGold",
+    "zh": "火上浇油",
+    "en": "Firebrand"
+  },
+  "384": {
+    "rarity": "kPrismatic",
+    "zh": "法术工艺",
+    "en": "Spellcraft"
+  },
+  "1026": {
+    "rarity": "kSilver",
+    "zh": "唯快不破",
+    "en": "Don't Blink"
+  },
+  "1315": {
+    "rarity": "kSilver",
+    "zh": "快中求稳",
+    "en": "Swift and Safe"
+  },
+  "2139": {
+    "rarity": "kGold",
+    "zh": "豪猪",
+    "en": "Porcupine"
+  },
+  "215": {
+    "rarity": "kGold",
+    "zh": "黑暗赐福",
+    "en": "Dark Blessing"
+  },
+  "1063": {
+    "rarity": "kGold",
+    "zh": "狂徒豪气",
+    "en": "Outlaw's Grit"
+  },
+  "1320": {
+    "rarity": "kSilver",
+    "zh": "升级：收集者",
+    "en": "Upgrade Collector"
+  },
+  "1170": {
+    "rarity": "kSilver",
+    "zh": "万用瞄准镜",
+    "en": "Scoped Weapons"
+  },
+  "2088": {
+    "rarity": "kSilver",
+    "zh": "下雪天",
+    "en": "Snowday"
+  },
+  "1050": {
+    "rarity": "kGold",
+    "zh": "基石法师",
+    "en": "Keystone Conjurer"
+  },
+  "129": {
+    "rarity": "kGold",
+    "zh": "神射法师",
+    "en": "Marksmage"
+  },
+  "373": {
+    "rarity": "kEventChoice",
+    "zh": "强求风险",
+    "en": "Compulsion For Risk"
+  },
+  "304": {
+    "rarity": "kPrismatic",
+    "zh": "献祭：换取棱彩阶",
+    "en": "Sacrifice: For Prismatic"
+  },
+  "2123": {
+    "rarity": "kPrismatic",
+    "zh": "超负荷",
+    "en": "Overloaded"
+  },
+  "392": {
+    "rarity": "kEventChoice",
+    "zh": "诈骗者之球",
+    "en": "Swindler's Orb"
+  },
+  "1301": {
+    "rarity": "kGold",
+    "zh": "神圣干预",
+    "en": "Divine Intervention"
+  },
+  "242": {
+    "rarity": "kSilver",
+    "zh": "榨汁机",
+    "en": "Juice Press"
+  },
+  "322": {
+    "rarity": "kSilver",
+    "zh": "强化之能量",
+    "en": "Augmented Power"
+  },
+  "110": {
+    "rarity": "kSilver",
+    "zh": "晾衣绳",
+    "en": "Clothesline"
+  },
+  "3036": {
+    "rarity": "kGold",
+    "zh": "翻倍时间",
+    "en": "Double Time"
+  },
+  "1237": {
+    "rarity": "kSilver",
+    "zh": "质变：黄金阶",
+    "en": "Transmute: Gold"
+  },
+  "5": {
+    "rarity": "kGold",
+    "zh": "号令之旗",
+    "en": "Banner of Command"
+  },
+  "64": {
+    "rarity": "kGold",
+    "zh": "坚韧",
+    "en": "Perseverance"
+  },
+  "1038": {
+    "rarity": "kGold",
+    "zh": "有始有终",
+    "en": "From Beginning To End"
+  },
+  "307": {
+    "rarity": "kGold",
+    "zh": "昏睡吹箭",
+    "en": "Sleep Dart"
+  },
+  "1046": {
+    "rarity": "kSilver",
+    "zh": "炼狱龙魂",
+    "en": "Infernal Soul"
+  },
+  "1342": {
+    "rarity": "kGold",
+    "zh": "雪球扭蛋机",
+    "en": "Snowball Roulette"
+  },
+  "1061": {
+    "rarity": "kGold",
+    "zh": "回力OK镖",
+    "en": "Ok Boomerang"
+  },
+  "94": {
+    "rarity": "kGold",
+    "zh": "自愿牺牲",
+    "en": "Willing Sacrifice"
+  },
+  "2118": {
+    "rarity": "kPrismatic",
+    "zh": "大招工具人",
+    "en": "Ult Bot"
+  },
+  "1373": {
+    "rarity": "kGold",
+    "zh": "缩小引擎",
+    "en": "Shrink Engine"
+  },
+  "211": {
+    "rarity": "kGold",
+    "zh": "杀戮时间到了",
+    "en": "It's Killing Time"
+  },
+  "73": {
+    "rarity": "kSilver",
+    "zh": "暗影疾奔",
+    "en": "Shadow Runner"
+  },
+  "79": {
+    "rarity": "kPrismatic",
+    "zh": "战争交响乐",
+    "en": "Symphony of War"
+  },
+  "1066": {
+    "rarity": "kPrismatic",
+    "zh": "量子计算",
+    "en": "Quantum Computing"
+  },
+  "68": {
+    "rarity": "kGold",
+    "zh": "循环往复",
+    "en": "Recursion"
+  },
+  "3134": {
+    "rarity": "kSilver",
+    "zh": "孤勇者",
+    "en": "Lonely Warrior"
+  },
+  "390": {
+    "rarity": "kGold",
+    "zh": "不稳定突变",
+    "en": "Unstable Transmutation"
+  },
+  "1087": {
+    "rarity": "kSilver",
+    "zh": "台风",
+    "en": "Typhoon"
+  },
+  "305": {
+    "rarity": "kSilver",
+    "zh": "练腿日",
+    "en": "Leg Day"
+  },
+  "381": {
+    "rarity": "kGold",
+    "zh": "拾荒者",
+    "en": "Scavenger"
+  },
+  "404": {
+    "rarity": "kSilver",
+    "zh": "404 强化符文未找到",
+    "en": "404 Augment Not Found"
+  },
+  "2083": {
+    "rarity": "kGold",
+    "zh": "牙仙子",
+    "en": "Tooth Fairy"
+  },
+  "194": {
+    "rarity": "kPrismatic",
+    "zh": "精怪魔法",
+    "en": "Fey Magic"
+  },
+  "1313": {
+    "rarity": "kGold",
+    "zh": "作弊：我能回城！",
+    "en": "Cheating"
+  },
+  "2109": {
+    "rarity": "kGold",
+    "zh": "复位",
+    "en": "Snap Back"
+  },
+  "1058": {
+    "rarity": "kPrismatic",
+    "zh": "秘术冲拳",
+    "en": "Mystic Punch"
+  },
+  "1415": {
+    "rarity": "kSilver",
+    "zh": "双生火焰",
+    "en": "Twin Fire"
+  },
+  "354": {
+    "rarity": "kEventChoice",
+    "zh": "监视残存物",
+    "en": "Remnant of the Watchers"
+  },
+  "171": {
+    "rarity": "kSilver",
+    "zh": "去质",
+    "en": "Dematerialize"
+  },
+  "1331": {
+    "rarity": "kPrismatic",
+    "zh": "至高天诺言",
+    "en": "Empyrean Promise"
+  },
+  "20": {
+    "rarity": "kGold",
+    "zh": "黎明使者的坚决",
+    "en": "Dawnbringer's Resolve"
+  },
+  "108": {
+    "rarity": "kSilver",
+    "zh": "自我毁灭",
+    "en": "Self Destruct"
+  },
+  "7004": {
+    "rarity": "kSilver",
+    "zh": "一饮而尽",
+    "en": "Drink Up"
+  },
+  "174": {
+    "rarity": "kPrismatic",
+    "zh": "镭射眼",
+    "en": "Laser Eyes"
+  },
+  "1348": {
+    "rarity": "kSilver",
+    "zh": "闪闪现现",
+    "en": "Flash 2"
+  },
+  "43": {
+    "rarity": "kSilver",
+    "zh": "位移魔术",
+    "en": "Now You See Me"
+  },
+  "1097": {
+    "rarity": "kSilver",
+    "zh": "巫师式思考",
+    "en": "Witchful Thinking"
+  },
+  "2125": {
+    "rarity": "kSilver",
+    "zh": "前进时间到",
+    "en": "It's Go Time"
+  },
+  "1": {
+    "rarity": "kPrismatic",
+    "zh": "加速巫术",
+    "en": "Accelerating Sorcery"
+  },
+  "227": {
+    "rarity": "kGold",
+    "zh": "属性叠属性！",
+    "en": "Stats on Stats!"
+  },
+  "2077": {
+    "rarity": "kGold",
+    "zh": "贪欲束缚",
+    "en": "Ravenous Bind"
+  },
+  "2063": {
+    "rarity": "kPrismatic",
+    "zh": "位面转移",
+    "en": "Dimension Shift"
+  },
+  "7003": {
+    "rarity": "kPrismatic",
+    "zh": "或杀或死",
+    "en": "Do or Die"
+  },
+  "1205": {
+    "rarity": "kSilver",
+    "zh": "物理转魔法",
+    "en": "ADAPt"
+  },
+  "332": {
+    "rarity": "kPrismatic",
+    "zh": "鲜血法师",
+    "en": "Blood Mage"
+  },
+  "187": {
+    "rarity": "kSilver",
+    "zh": "闪光弹",
+    "en": "Flashbang"
+  },
+  "6": {
+    "rarity": "kPrismatic",
+    "zh": "利刃华尔兹",
+    "en": "Blade Waltz"
+  },
+  "1113": {
+    "rarity": "kGold",
+    "zh": "老练狙神",
+    "en": "Skilled Sniper"
+  },
+  "2091": {
+    "rarity": "kGold",
+    "zh": "无尽大杀四方",
+    "en": "Endless Decimation"
+  },
+  "7002": {
+    "rarity": "kGold",
+    "zh": "黑切联盟",
+    "en": "Don't Stop Cleavin'"
+  },
+  "19": {
+    "rarity": "kPrismatic",
+    "zh": "全凭身法",
+    "en": "Dashing"
+  },
+  "1204": {
+    "rarity": "kSilver",
+    "zh": "叠角龙",
+    "en": "Stackosaurus Rex"
+  },
+  "1317": {
+    "rarity": "kSilver",
+    "zh": "升级：弯刀",
+    "en": "Upgrade Cutlass"
+  },
+  "3163": {
+    "rarity": "kGold",
+    "zh": "迷人蝴蝶",
+    "en": "Enchanting Butterflies"
+  },
+  "1044": {
+    "rarity": "kSilver",
+    "zh": "冰寒",
+    "en": "Ice Cold"
+  },
+  "2034": {
+    "rarity": "kGold",
+    "zh": "鲨鱼暴风",
+    "en": "Shark Tempest"
+  },
+  "1077": {
+    "rarity": "kGold",
+    "zh": "灵魂虹吸",
+    "en": "Soul Siphon"
+  },
+  "326": {
+    "rarity": "kSilver",
+    "zh": "灵之灌注",
+    "en": "Spirit Infusion"
+  },
+  "82": {
+    "rarity": "kSilver",
+    "zh": "残暴之力",
+    "en": "The Brutalizer"
+  },
+  "1334": {
+    "rarity": "kGold",
+    "zh": "升级：雪球",
+    "en": "Snowball Upgrade"
+  },
+  "2087": {
+    "rarity": "kPrismatic",
+    "zh": "大法师",
+    "en": "Archmage"
+  },
+  "310": {
+    "rarity": "kPrismatic",
+    "zh": "小丑学院",
+    "en": "Clown College"
+  },
+  "349": {
+    "rarity": "kEventChoice",
+    "zh": "去质器",
+    "en": "Dematerializer"
+  },
+  "1338": {
+    "rarity": "kGold",
+    "zh": "升级：狂妄",
+    "en": "Upgrade Hubris"
+  },
+  "330": {
+    "rarity": "kSilver",
+    "zh": "剥夺",
+    "en": "Despoil"
+  },
+  "3129": {
+    "rarity": "kGold",
+    "zh": "吸元秘术",
+    "en": "Sap Magic"
+  },
+  "1403": {
+    "rarity": "kGold",
+    "zh": "属性叠属性！",
+    "en": "Stats on Stats!"
+  },
+  "1018": {
+    "rarity": "kPrismatic",
+    "zh": "巨像的勇气",
+    "en": "Courage of the Colossus"
+  },
+  "149": {
+    "rarity": "kGold",
+    "zh": "不动如山",
+    "en": "Impassable"
+  },
+  "1035": {
+    "rarity": "kPrismatic",
+    "zh": "感受燃烧",
+    "en": "Feel the Burn"
+  },
+  "56": {
+    "rarity": "kSilver",
+    "zh": "由心及物",
+    "en": "Mind to Matter"
+  },
+  "3055": {
+    "rarity": "kSilver",
+    "zh": "终极循环往复",
+    "en": "Ultimate Recursion"
+  },
+  "112": {
+    "rarity": "kSilver",
+    "zh": "终极不可阻挡",
+    "en": "Ultimate Unstoppable"
+  },
+  "123": {
+    "rarity": "kPrismatic",
+    "zh": "召唤师峡谷的轮盘",
+    "en": "Summoner's Roulette"
+  },
+  "98": {
+    "rarity": "kGold",
+    "zh": "急急小子",
+    "en": "With Haste"
+  },
+  "1220": {
+    "rarity": "kPrismatic",
+    "zh": "连拨击锤",
+    "en": "Fan The Hammer"
+  },
+  "3048": {
+    "rarity": "kPrismatic",
+    "zh": "弹跳蜜蜂",
+    "en": "Bouncing Bees"
+  },
+  "374": {
+    "rarity": "kGold",
+    "zh": "米饭和鸡肉",
+    "en": "Rice and Chicken"
+  },
+  "1084": {
+    "rarity": "kGold",
+    "zh": "穿针引线",
+    "en": "Thread the Needle"
+  },
+  "1356": {
+    "rarity": "kGold",
+    "zh": "暴击飞弹",
+    "en": "Critical Missile"
+  },
+  "378": {
+    "rarity": "kPrismatic",
+    "zh": "质变：白银阶",
+    "en": "Transmute: Silver"
+  },
+  "1073": {
+    "rarity": "kSilver",
+    "zh": "暗影疾奔",
+    "en": "Shadow Runner"
+  },
+  "1015": {
+    "rarity": "kPrismatic",
+    "zh": "死亡之环",
+    "en": "Circle of Death"
+  },
+  "7": {
+    "rarity": "kSilver",
+    "zh": "大力",
+    "en": "Blunt Force"
+  },
+  "1107": {
+    "rarity": "kGold",
+    "zh": "接二连三",
+    "en": "Twice Thrice"
+  },
+  "340": {
+    "rarity": "kEventChoice",
+    "zh": "获得一个棱彩阶属性锻造器",
+    "en": "Gain a Prismatic Stat Anvil"
+  },
+  "2127": {
+    "rarity": "kSilver",
+    "zh": "大师铸就",
+    "en": "Forged By The Master"
+  },
+  "1156": {
+    "rarity": "kPrismatic",
+    "zh": "沃格勒特的巫师帽",
+    "en": "Wooglet's Witchcap"
+  },
+  "1214": {
+    "rarity": "kSilver",
+    "zh": "旋转至胜",
+    "en": "Spin To Win"
+  },
+  "1054": {
+    "rarity": "kPrismatic",
+    "zh": "物法皆修",
+    "en": "Master of Duality"
+  },
+  "3116": {
+    "rarity": "kGold",
+    "zh": "将他们放倒倒倒",
+    "en": "Take'em Down Down Down"
+  },
+  "327": {
+    "rarity": "kGold",
+    "zh": "不灭守护",
+    "en": "Undying Guard"
+  },
+  "77": {
+    "rarity": "kGold",
+    "zh": "灵魂虹吸",
+    "en": "Soul Siphon"
+  },
+  "2082": {
+    "rarity": "kGold",
+    "zh": "我们的治疗",
+    "en": "Our Healing"
+  },
+  "2141": {
+    "rarity": "kPrismatic",
+    "zh": "终极九头蛇",
+    "en": "Ultra Hydra"
+  },
+  "1308": {
+    "rarity": "kSilver",
+    "zh": "火狐",
+    "en": "FireFox"
+  },
+  "44": {
+    "rarity": "kSilver",
+    "zh": "冰寒",
+    "en": "Ice Cold"
+  },
+  "317": {
+    "rarity": "kPrismatic",
+    "zh": "潘朵拉的盒子",
+    "en": "Pandora's Box"
+  },
+  "1029": {
+    "rarity": "kGold",
+    "zh": "虚幻武器",
+    "en": "Ethereal Weapon"
+  },
+  "1388": {
+    "rarity": "kPrismatic",
+    "zh": "无限循环往复",
+    "en": "Infinite Recursion"
+  },
+  "251": {
+    "rarity": "kSilver",
+    "zh": "疼痛钝感",
+    "en": "Numb to Pain"
+  },
+  "2148": {
+    "rarity": "kSilver",
+    "zh": "双重打击",
+    "en": "Double Strike"
+  },
+  "1030": {
+    "rarity": "kPrismatic",
+    "zh": "尤里卡",
+    "en": "Eureka"
+  },
+  "3058": {
+    "rarity": "kGold",
+    "zh": "嗡嗡怪兽",
+    "en": "Tickle Monster"
+  },
+  "96": {
+    "rarity": "kPrismatic",
+    "zh": "时光之智慧",
+    "en": "Wisdom of Ages"
+  },
+  "1098": {
+    "rarity": "kGold",
+    "zh": "急急小子",
+    "en": "With Haste"
+  },
+  "1195": {
+    "rarity": "kPrismatic",
+    "zh": "巨人杀手",
+    "en": "Giant Slayer"
+  },
+  "2140": {
+    "rarity": "kGold",
+    "zh": "升级：贪欲九头蛇",
+    "en": "Upgrade Ravenous Hydra"
+  },
+  "1413": {
+    "rarity": "kPrismatic",
+    "zh": "和我一起困在这里",
+    "en": "Stuck In Here With Me"
+  },
+  "7005": {
+    "rarity": "kPrismatic",
+    "zh": "欲速则不达",
+    "en": "Haste Makes Waste"
+  },
+  "1314": {
+    "rarity": "kSilver",
+    "zh": "强力护盾",
+    "en": "Mighty Shield"
+  },
+  "1392": {
+    "rarity": "kPrismatic",
+    "zh": "神圣雪球",
+    "en": "Holy Snowball"
+  },
+  "1386": {
+    "rarity": "kSilver",
+    "zh": "转得我眩晕了",
+    "en": "Spin Me Right Round"
+  },
+  "1074": {
+    "rarity": "kGold",
+    "zh": "缩小射线",
+    "en": "Shrink Ray"
+  },
+  "1311": {
+    "rarity": "kGold",
+    "zh": "溢流",
+    "en": "Overflow"
+  },
+  "321": {
+    "rarity": "kGold",
+    "zh": "保镖",
+    "en": "Bodyguard"
+  },
+  "355": {
+    "rarity": "kEventChoice",
+    "zh": "获得属性锻造器",
+    "en": "Gain Stat Anvil"
+  },
+  "102": {
+    "rarity": "kSilver",
+    "zh": "请勿追击",
+    "en": "Don't Chase"
+  },
+  "389": {
+    "rarity": "kSilver",
+    "zh": "变废为宝",
+    "en": "Trash To Treasure"
+  },
+  "1075": {
+    "rarity": "kPrismatic",
+    "zh": "慢炖",
+    "en": "Slow Cooker"
+  },
+  "87": {
+    "rarity": "kSilver",
+    "zh": "台风",
+    "en": "Typhoon"
+  },
+  "1092": {
+    "rarity": "kGold",
+    "zh": "易损",
+    "en": "Vulnerability"
+  },
+  "75": {
+    "rarity": "kPrismatic",
+    "zh": "慢炖",
+    "en": "Slow Cooker"
+  },
+  "2097": {
+    "rarity": "kGold",
+    "zh": "虚空冲刺",
+    "en": "Void Dash"
+  },
+  "1194": {
+    "rarity": "kPrismatic",
+    "zh": "精怪魔法",
+    "en": "Fey Magic"
+  },
+  "2024": {
+    "rarity": "kSilver",
+    "zh": "由暴生急",
+    "en": "Crit 'n Cast"
+  },
+  "2133": {
+    "rarity": "kGold",
+    "zh": "仁慈打击",
+    "en": "Mercy's Strike"
+  },
+  "306": {
+    "rarity": "kSilver",
+    "zh": "招架",
+    "en": "Parry"
+  },
+  "3063": {
+    "rarity": "kSilver",
+    "zh": "溺水之赠礼",
+    "en": "Gift of the Drowned"
+  },
+  "141": {
+    "rarity": "kGold",
+    "zh": "全心为你",
+    "en": "All For You"
+  },
+  "120": {
+    "rarity": "kSilver",
+    "zh": "超越死亡的效劳",
+    "en": "Serve Beyond Death"
+  },
+  "35": {
+    "rarity": "kPrismatic",
+    "zh": "感受燃烧",
+    "en": "Feel the Burn"
+  },
+  "3085": {
+    "rarity": "kSilver",
+    "zh": "灵魂乐流",
+    "en": "Flow of Spirit"
+  },
+  "224": {
+    "rarity": "kPrismatic",
+    "zh": "棱彩蛋",
+    "en": "Prismatic Egg"
+  },
+  "61": {
+    "rarity": "kGold",
+    "zh": "回力OK镖",
+    "en": "OK Boomerang"
+  },
+  "1238": {
+    "rarity": "kGold",
+    "zh": "质变：棱彩阶",
+    "en": "Transmute: Prismatic"
+  },
+  "314": {
+    "rarity": "kGold",
+    "zh": "解脱者",
+    "en": "Unshackled"
+  },
+  "39": {
+    "rarity": "kSilver",
+    "zh": "冰霜 幽灵",
+    "en": "Frost Wraith"
+  },
+  "156": {
+    "rarity": "kPrismatic",
+    "zh": "任务：沃格勒特的巫师帽",
+    "en": "Quest: Wooglet's Witchcap"
+  },
+  "1404": {
+    "rarity": "kSilver",
+    "zh": "属性！",
+    "en": "Stats!"
+  },
+  "387": {
+    "rarity": "kGold",
+    "zh": "大龙能量",
+    "en": "Big Dragon Energy"
+  },
+  "2007": {
+    "rarity": "kPrismatic",
+    "zh": "你肩上的恶魔",
+    "en": "Devil on Your Shoulder"
+  },
+  "371": {
+    "rarity": "kEventChoice",
+    "zh": "强求财富",
+    "en": "Compulsion For Wealth"
+  },
+  "328": {
+    "rarity": "kPrismatic",
+    "zh": "恶火束链",
+    "en": "Infernal Chains"
+  },
+  "2108": {
+    "rarity": "kSilver",
+    "zh": "主玩辅助",
+    "en": "Support Main"
+  },
+  "303": {
+    "rarity": "kGold",
+    "zh": "献祭：换取黄金阶",
+    "en": "Sacrifice: For Gold"
+  },
+  "1397": {
+    "rarity": "kPrismatic",
+    "zh": "地狱三头犬",
+    "en": "Cerberus"
+  },
+  "228": {
+    "rarity": "kPrismatic",
+    "zh": "属性叠属性叠属性！",
+    "en": "Stats on Stats on Stats!"
+  },
+  "2006": {
+    "rarity": "kPrismatic",
+    "zh": "飞身踢",
+    "en": "Dropkick"
+  },
+  "42": {
+    "rarity": "kSilver",
+    "zh": "恶趣味",
+    "en": "Guilty Pleasure"
+  },
+  "135": {
+    "rarity": "kPrismatic",
+    "zh": "法术苏醒",
+    "en": "Spellwake"
+  },
+  "334": {
+    "rarity": "kPrismatic",
+    "zh": "幻像",
+    "en": "Hallucinate"
+  },
+  "348": {
+    "rarity": "kEventChoice",
+    "zh": "夺命剃刀",
+    "en": "Bloodrazor"
+  },
+  "1327": {
+    "rarity": "kSilver",
+    "zh": "坚若磐石",
+    "en": "Adamant"
+  },
+  "1005": {
+    "rarity": "kGold",
+    "zh": "喂呜喂呜",
+    "en": "Wee Woo Wee Woo"
+  },
+  "1150": {
+    "rarity": "kGold",
+    "zh": "面包和果酱",
+    "en": "Bread And Jam"
+  },
+  "25": {
+    "rarity": "kSilver",
+    "zh": "俯冲轰炸",
+    "en": "Dive Bomber"
+  },
+  "17": {
+    "rarity": "kSilver",
+    "zh": "职业杀手",
+    "en": "Contract Killer"
+  },
+  "302": {
+    "rarity": "kSilver",
+    "zh": "献祭：换取白银阶",
+    "en": "Sacrifice: For Silver"
+  },
+  "62": {
+    "rarity": "kPrismatic",
+    "zh": "全能龙魂",
+    "en": "Omni Soul"
+  },
+  "136": {
+    "rarity": "kSilver",
+    "zh": "扇巴掌",
+    "en": "Slap Around"
+  },
+  "1072": {
+    "rarity": "kGold",
+    "zh": "炽烈黎明",
+    "en": "Searing Dawn"
+  },
+  "90": {
+    "rarity": "kGold",
+    "zh": "复仇",
+    "en": "Vengeance"
+  },
+  "1414": {
+    "rarity": "kPrismatic",
+    "zh": "卡皮巴拉空投",
+    "en": "Droppybara"
+  },
+  "7010": {
+    "rarity": "kGold",
+    "zh": "时光发条：心之钢",
+    "en": "Time Warp: Heartsteel"
+  },
+  "1198": {
+    "rarity": "kGold",
+    "zh": "圣火",
+    "en": "Holy Fire"
+  },
+  "3149": {
+    "rarity": "kPrismatic",
+    "zh": "一起抱抱",
+    "en": "Group Hug"
+  },
+  "180": {
+    "rarity": "kGold",
+    "zh": "超强大脑",
+    "en": "Big Brain"
+  },
+  "2129": {
+    "rarity": "kGold",
+    "zh": "地形专家",
+    "en": "Terrain'd"
+  },
+  "208": {
+    "rarity": "kPrismatic",
+    "zh": "轨道镭射",
+    "en": "Orbital Laser"
+  },
+  "1079": {
+    "rarity": "kPrismatic",
+    "zh": "战争交响乐",
+    "en": "Symphony of War"
+  },
+  "109": {
+    "rarity": "kGold",
+    "zh": "誓约者",
+    "en": "Oathsworn"
+  },
+  "195": {
+    "rarity": "kPrismatic",
+    "zh": "巨人杀手",
+    "en": "Giant Slayer"
+  },
+  "1007": {
+    "rarity": "kSilver",
+    "zh": "大力",
+    "en": "Blunt Force"
+  },
+  "200": {
+    "rarity": "kGold",
+    "zh": "血亲兄弟",
+    "en": "Blood Brother"
+  },
+  "213": {
+    "rarity": "kSilver",
+    "zh": "完全自动化",
+    "en": "Fully Automated"
+  },
+  "93": {
+    "rarity": "kSilver",
+    "zh": "热身动作",
+    "en": "Warmup Routine"
+  },
+  "134": {
+    "rarity": "kPrismatic",
+    "zh": "亮出你的剑",
+    "en": "Draw Your Sword"
+  },
+  "3173": {
+    "rarity": "kGold",
+    "zh": "厄运",
+    "en": "DOOM"
+  },
+  "198": {
+    "rarity": "kGold",
+    "zh": "圣火",
+    "en": "Holy Fire"
+  },
+  "2001": {
+    "rarity": "kPrismatic",
+    "zh": "当心小蛋糕！",
+    "en": "Heads Up Cupcake!"
+  },
+  "1325": {
+    "rarity": "kPrismatic",
+    "zh": "玻璃大炮",
+    "en": "Glass Cannon"
+  },
+  "1052": {
+    "rarity": "kGold",
+    "zh": "闪电打击",
+    "en": "Lightning Strikes"
+  },
+  "2098": {
+    "rarity": "kPrismatic",
+    "zh": "吃过路兵",
+    "en": "En Passant"
+  },
+  "367": {
+    "rarity": "kEventChoice",
+    "zh": "戒绝风险",
+    "en": "Abstain From Risk"
+  },
+  "1076": {
+    "rarity": "kSilver",
+    "zh": "天音爆",
+    "en": "Sonic Boom"
+  },
+  "11": {
+    "rarity": "kPrismatic",
+    "zh": "你摸不到",
+    "en": "Can't Touch This"
+  },
+  "58": {
+    "rarity": "kPrismatic",
+    "zh": "秘术冲拳",
+    "en": "Mystic Punch"
+  },
+  "350": {
+    "rarity": "kEventChoice",
+    "zh": "附魔药瓶",
+    "en": "Enchanted Flask"
+  },
+  "225": {
+    "rarity": "kPrismatic",
+    "zh": "双刀流",
+    "en": "Dual Wield"
+  },
+  "70": {
+    "rarity": "kGold",
+    "zh": "无休回复",
+    "en": "Restless Restoration"
+  },
+  "7008": {
+    "rarity": "kPrismatic",
+    "zh": "多兰的最铁粉丝",
+    "en": "Doran's Biggest Fan"
+  },
+  "243": {
+    "rarity": "kPrismatic",
+    "zh": "质变：混沌",
+    "en": "Transmute: Chaos"
+  },
+  "3079": {
+    "rarity": "kPrismatic",
+    "zh": "死之舞",
+    "en": "Totentanz"
+  },
+  "1211": {
+    "rarity": "kGold",
+    "zh": "杀戮时间到了",
+    "en": "It's Killing Time"
+  },
+  "1333": {
+    "rarity": "kSilver",
+    "zh": "逃跑计划",
+    "en": "Escape Plan"
+  },
+  "2042": {
+    "rarity": "kGold",
+    "zh": "藏身草丛",
+    "en": "Hide on Bush"
+  },
+  "1129": {
+    "rarity": "kGold",
+    "zh": "神射法师",
+    "en": "Marksmage"
+  },
+  "26": {
+    "rarity": "kSilver",
+    "zh": "唯快不破",
+    "en": "Don't Blink"
+  },
+  "3071": {
+    "rarity": "kGold",
+    "zh": "黄铜爆音",
+    "en": "Brass Blast"
+  },
+  "311": {
+    "rarity": "kGold",
+    "zh": "溢流",
+    "en": "Overflow"
+  },
+  "1250": {
+    "rarity": "kGold",
+    "zh": "一板一眼",
+    "en": "Slow And Steady"
+  },
+  "342": {
+    "rarity": "kEventChoice",
+    "zh": "等级类强化符文",
+    "en": "Level Augments"
+  },
+  "99": {
+    "rarity": "kPrismatic",
+    "zh": "中娅显灵",
+    "en": "Zhonya's Epiphany"
+  },
+  "1022": {
+    "rarity": "kSilver",
+    "zh": "灵巧",
+    "en": "Deft"
+  },
+  "1323": {
+    "rarity": "kPrismatic",
+    "zh": "残忍",
+    "en": "Cruelty"
+  },
+  "1390": {
+    "rarity": "kGold",
+    "zh": "超凡邪恶",
+    "en": "Phenomenal Evil"
+  },
+  "1138": {
+    "rarity": "kSilver",
+    "zh": "渴血",
+    "en": "Goredrink"
+  },
+  "3176": {
+    "rarity": "kGold",
+    "zh": "GoH_PentakillAug_Generic_BlankName",
+    "en": "   "
+  },
+  "1133": {
+    "rarity": "kGold",
+    "zh": "魔法飞弹",
+    "en": "Magic Missile"
+  },
+  "1082": {
+    "rarity": "kSilver",
+    "zh": "残暴之力",
+    "en": "The Brutalizer"
+  },
+  "1424": {
+    "rarity": "kPrismatic",
+    "zh": "？？？",
+    "en": "???"
+  },
+  "1318": {
+    "rarity": "kSilver",
+    "zh": "升级：中娅",
+    "en": "Upgrade Zhonya's"
+  },
+  "2018": {
+    "rarity": "kSilver",
+    "zh": "纯粹主义者 - 术师",
+    "en": "Purist - Caster"
+  },
+  "1032": {
+    "rarity": "kGold",
+    "zh": "裁决使",
+    "en": "Executioner"
+  },
+  "1337": {
+    "rarity": "kPrismatic",
+    "zh": "尊我为王",
+    "en": "King Me"
+  },
+  "2128": {
+    "rarity": "kGold",
+    "zh": "炽燃利息",
+    "en": "Combusting Interest"
+  },
+  "362": {
+    "rarity": "kEventChoice",
+    "zh": "与【猎人】结盟",
+    "en": "Ally Hunter"
+  },
+  "172": {
+    "rarity": "kSilver",
+    "zh": "镜花水月",
+    "en": "Mirror Image"
+  },
+  "1322": {
+    "rarity": "kGold",
+    "zh": "罪恶快感",
+    "en": "Get Excited!"
+  },
+  "89": {
+    "rarity": "kGold",
+    "zh": "遁入暗影",
+    "en": "Vanish"
+  },
+  "46": {
+    "rarity": "kSilver",
+    "zh": "炼狱龙魂",
+    "en": "Infernal Soul"
+  },
+  "1070": {
+    "rarity": "kGold",
+    "zh": "无休回复",
+    "en": "Restless Restoration"
+  },
+  "1042": {
+    "rarity": "kSilver",
+    "zh": "恶趣味",
+    "en": "Guilty Pleasure"
+  },
+  "170": {
+    "rarity": "kSilver",
+    "zh": "万用瞄准镜",
+    "en": "Scoped Weapons"
+  },
+  "1180": {
+    "rarity": "kGold",
+    "zh": "超强大脑",
+    "en": "Big Brain"
+  },
+  "7013": {
+    "rarity": "kGold",
+    "zh": "主玩打野之精魄",
+    "en": "Spirit of the Jungle Main"
+  },
+  "2032": {
+    "rarity": "kGold",
+    "zh": "鲨鱼诱饵",
+    "en": "Shark Bait"
+  },
+  "233": {
+    "rarity": "kPrismatic",
+    "zh": "终极转盘",
+    "en": "Ultimate Roulette"
+  },
+  "1316": {
+    "rarity": "kSilver",
+    "zh": "刃下生风",
+    "en": "Wind Beneath Blade"
+  },
+  "2072": {
+    "rarity": "kPrismatic",
+    "zh": "咒语裂变",
+    "en": "Spell Split"
+  },
+  "2132": {
+    "rarity": "kGold",
+    "zh": "术士果汁盒",
+    "en": "Warlock Juicebox"
+  },
+  "78": {
+    "rarity": "kPrismatic",
+    "zh": "灵魂连接",
+    "en": "Spirit Link"
+  },
+  "3170": {
+    "rarity": "kGold",
+    "zh": "重型",
+    "en": "HEAVY"
+  },
+  "1067": {
+    "rarity": "kGold",
+    "zh": "活力焕发",
+    "en": "Rejuvenation"
+  },
+  "1310": {
+    "rarity": "kPrismatic",
+    "zh": "小丑学院",
+    "en": "Clown College"
+  },
+  "2046": {
+    "rarity": "kPrismatic",
+    "zh": "魄罗蛮冲",
+    "en": "Poro Stampede"
+  },
+  "366": {
+    "rarity": "kEventChoice",
+    "zh": "戒绝权力",
+    "en": "Abstain From Power"
+  },
+  "1002": {
+    "rarity": "kGold",
+    "zh": "尖端发明家",
+    "en": "Apex Inventor"
+  },
+  "370": {
+    "rarity": "kEventChoice",
+    "zh": "渴望风险",
+    "en": "Craving For Risk"
+  },
+  "2096": {
+    "rarity": "kGold",
+    "zh": "小小的额外帮助",
+    "en": "Lil' Extra Help"
+  },
+  "1064": {
+    "rarity": "kGold",
+    "zh": "坚韧",
+    "en": "Perseverance"
+  },
+  "3025": {
+    "rarity": "kSilver",
+    "zh": "音之屏障",
+    "en": "Sound Barrier"
+  },
+  "338": {
+    "rarity": "kPrismatic",
+    "zh": "蜂巢思维",
+    "en": "Hive Mind"
+  },
+  "1103": {
+    "rarity": "kGold",
+    "zh": "面包和黄油",
+    "en": "Bread And Butter"
+  },
+  "3131": {
+    "rarity": "kGold",
+    "zh": "屹立不倒",
+    "en": "Still Here"
+  },
+  "214": {
+    "rarity": "kSilver",
+    "zh": "旋转至胜",
+    "en": "Spin To Win"
+  },
+  "308": {
+    "rarity": "kSilver",
+    "zh": "火狐",
+    "en": "Firefox"
+  },
+  "63": {
+    "rarity": "kGold",
+    "zh": "狂徒豪气",
+    "en": "Outlaw's Grit"
+  },
+  "84": {
+    "rarity": "kGold",
+    "zh": "穿针引线",
+    "en": "Thread the Needle"
+  },
+  "7009": {
+    "rarity": "kGold",
+    "zh": "升级：激发之匣",
+    "en": "Upgrade: Innervating Locket"
+  },
+  "2026": {
+    "rarity": "kSilver",
+    "zh": "杀意翻涌",
+    "en": "Kill Secured"
+  },
+  "1062": {
+    "rarity": "kPrismatic",
+    "zh": "全能龙魂",
+    "en": "Omni Soul"
+  },
+  "2102": {
+    "rarity": "kGold",
+    "zh": "高压锅",
+    "en": "Pressure Cooker"
+  },
+  "1326": {
+    "rarity": "kGold",
+    "zh": "夜狩",
+    "en": "Nightstalking"
+  },
+  "309": {
+    "rarity": "kGold",
+    "zh": "还有我的斧头！",
+    "en": "And My Axe!"
+  },
+  "1400": {
+    "rarity": "kGold",
+    "zh": "最终都市列车",
+    "en": "Final City Transit"
+  },
+  "221": {
+    "rarity": "kSilver",
+    "zh": "引路者",
+    "en": "Trailblazer"
+  },
+  "1053": {
+    "rarity": "kPrismatic",
+    "zh": "科学狂人",
+    "en": "Mad Scientist"
+  },
+  "154": {
+    "rarity": "kGold",
+    "zh": "任务：海牛阿福的勇士",
+    "en": "Quest: Urf's Champion"
+  },
+  "37": {
+    "rarity": "kSilver",
+    "zh": "急救用具",
+    "en": "First-Aid Kit"
+  },
+  "1051": {
+    "rarity": "kSilver",
+    "zh": "点亮他们！",
+    "en": "Light 'Em Up!"
+  },
+  "95": {
+    "rarity": "kPrismatic",
+    "zh": "风语者的祝福",
+    "en": "Windspeaker's Blessing"
+  },
+  "48": {
+    "rarity": "kPrismatic",
+    "zh": "珠光护手",
+    "en": "Jeweled Gauntlet"
+  },
+  "3016": {
+    "rarity": "kPrismatic",
+    "zh": "伤不过三",
+    "en": "Third Times the Harm"
+  },
+  "1056": {
+    "rarity": "kSilver",
+    "zh": "由心及物",
+    "en": "Mind to Matter"
+  },
+  "66": {
+    "rarity": "kPrismatic",
+    "zh": "量子计算",
+    "en": "Quantum Computing"
+  },
+  "3121": {
+    "rarity": "kSilver",
+    "zh": "水果化",
+    "en": "Fruitify"
+  },
+  "7014": {
+    "rarity": "kSilver",
+    "zh": "拱火诱饵",
+    "en": "Ragebait"
+  },
+  "2137": {
+    "rarity": "kGold",
+    "zh": "轻拍背部",
+    "en": "Pat On The Back"
+  },
+  "1009": {
+    "rarity": "kSilver",
+    "zh": "霸符兄弟",
+    "en": "Buff Buddies"
+  },
+  "55": {
+    "rarity": "kSilver",
+    "zh": "午夜快递",
+    "en": "Midnight Express"
+  },
+  "113": {
+    "rarity": "kGold",
+    "zh": "老练狙神",
+    "en": "Skilled Sniper"
+  },
+  "29": {
+    "rarity": "kGold",
+    "zh": "虚幻武器",
+    "en": "Ethereal Weapon"
+  },
+  "206": {
+    "rarity": "kSilver",
+    "zh": "魔法转物理",
+    "en": "escAPADe"
+  },
+  "1136": {
+    "rarity": "kSilver",
+    "zh": "扇巴掌",
+    "en": "Slap Around"
+  },
+  "2065": {
+    "rarity": "kGold",
+    "zh": "惊惧",
+    "en": "Terror"
+  },
+  "177": {
+    "rarity": "kPrismatic",
+    "zh": "套娃",
+    "en": "Nesting Doll"
+  },
+  "335": {
+    "rarity": "kSilver",
+    "zh": "避难所",
+    "en": "Panic Room"
+  },
+  "1358": {
+    "rarity": "kGold",
+    "zh": "弹球",
+    "en": "Pinball"
+  },
+  "347": {
+    "rarity": "kEventChoice",
+    "zh": "炼金科技纯化器",
+    "en": "Chemtech Putrifier"
+  },
+  "331": {
+    "rarity": "kGold",
+    "zh": "多功能工具",
+    "en": "Multitool"
+  },
+  "1405": {
+    "rarity": "kSilver",
+    "zh": "速度恶魔",
+    "en": "Speed Demon"
+  },
+  "12317": {
+    "rarity": "kPrismatic",
+    "zh": "潘朵拉的盒子",
+    "en": "Pandora's Box"
+  },
+  "1346": {
+    "rarity": "kGold",
+    "zh": "吸血习性",
+    "en": "Vampirism"
+  },
+  "357": {
+    "rarity": "kGold",
+    "zh": "双管齐下",
+    "en": "Hybrid"
+  },
+  "1071": {
+    "rarity": "kGold",
+    "zh": "更万用的瞄准镜",
+    "en": "Scopier Weapons"
+  },
+  "2005": {
+    "rarity": "kPrismatic",
+    "zh": "扳机炼狱",
+    "en": "Triggered Inferno"
+  },
+  "1028": {
+    "rarity": "kSilver",
+    "zh": "侵蚀",
+    "en": "Erosion"
+  },
+  "239": {
+    "rarity": "kGold",
+    "zh": "共生突变",
+    "en": "Symbiotic Mutation"
+  },
+  "1353": {
+    "rarity": "kGold",
+    "zh": "坦克引擎",
+    "en": "Tank Engine"
+  },
+  "358": {
+    "rarity": "kEventChoice",
+    "zh": "狼灵狂热",
+    "en": "Wolf's Frenzy"
+  },
+  "1027": {
+    "rarity": "kPrismatic",
+    "zh": "大地苏醒",
+    "en": "Earthwake"
+  },
+  "1349": {
+    "rarity": "kPrismatic",
+    "zh": "终极唤醒",
+    "en": "Ultimate Awakening"
+  },
+  "1341": {
+    "rarity": "kSilver",
+    "zh": "帽上加帽",
+    "en": "Hat on a Hat"
+  },
+  "1020": {
+    "rarity": "kGold",
+    "zh": "黎明使者的坚决",
+    "en": "Dawnbringer's Resolve"
+  },
+  "12": {
+    "rarity": "kSilver",
+    "zh": "王车易位",
+    "en": "Castle"
+  },
+  "23": {
+    "rarity": "kGold",
+    "zh": "魔鬼之舞",
+    "en": "Demon's Dance"
+  },
+  "333": {
+    "rarity": "kPrismatic",
+    "zh": "任务：熔铸之神的仪式",
+    "en": "Quest: Rite Of The Forge God"
+  },
+  "14": {
+    "rarity": "kPrismatic",
+    "zh": "专属司机",
+    "en": "Chauffeur"
+  },
+  "3075": {
+    "rarity": "kGold",
+    "zh": "反冲",
+    "en": "Recoil"
+  },
+  "1345": {
+    "rarity": "kGold",
+    "zh": "心灵净化",
+    "en": "Spiritual Purification"
+  },
+  "207": {
+    "rarity": "kSilver",
+    "zh": "纹丝不动",
+    "en": "Hold Very Still"
+  },
+  "1069": {
+    "rarity": "kSilver",
+    "zh": "退敌力场",
+    "en": "Repulsor"
+  },
+  "222": {
+    "rarity": "kSilver",
+    "zh": "你的劳动果实",
+    "en": "Fruits of Your Labor"
+  },
+  "3081": {
+    "rarity": "kGold",
+    "zh": "命运之武器",
+    "en": "Weapon of Destiny"
+  },
+  "394": {
+    "rarity": "kSilver",
+    "zh": "变废为宝",
+    "en": "Dust To Diamonds"
+  },
+  "71": {
+    "rarity": "kGold",
+    "zh": "更万用的瞄准镜",
+    "en": "Scopier Weapons"
+  },
+  "2054": {
+    "rarity": "kPrismatic",
+    "zh": "三重射击",
+    "en": "Tripleshot"
+  },
+  "1037": {
+    "rarity": "kSilver",
+    "zh": "急救用具",
+    "en": "First-Aid Kit"
+  },
+  "3088": {
+    "rarity": "kGold",
+    "zh": "深红钴蓝闪光",
+    "en": "CRIMSON COBALT"
+  },
+  "115": {
+    "rarity": "kPrismatic",
+    "zh": "最万用的瞄准镜",
+    "en": "Scopiest Weapons"
+  },
+  "1141": {
+    "rarity": "kGold",
+    "zh": "全心为你",
+    "en": "All For You"
+  },
+  "2138": {
+    "rarity": "kSilver",
+    "zh": "自适应防护",
+    "en": "Adaptive Ward"
+  },
+  "1996": {
+    "rarity": "kGold",
+    "zh": "升级：耀光",
+    "en": "Upgrade Sheen"
+  },
+  "152": {
+    "rarity": "kGold",
+    "zh": "任务：钢化你心",
+    "en": "Quest: Steel Your Heart"
+  },
+  "383": {
+    "rarity": "kGold",
+    "zh": "恶魔之握",
+    "en": "Demonic Clasp"
+  },
+  "1060": {
+    "rarity": "kSilver",
+    "zh": "海洋龙魂",
+    "en": "Ocean Soul"
+  },
+  "1375": {
+    "rarity": "kGold",
+    "zh": "吞噬灵魂",
+    "en": "Soul Eater"
+  },
+  "51": {
+    "rarity": "kSilver",
+    "zh": "点亮他们！",
+    "en": "Light 'em Up!"
+  },
+  "9": {
+    "rarity": "kSilver",
+    "zh": "霸符兄弟",
+    "en": "Buff Buddies"
+  },
+  "2100": {
+    "rarity": "kGold",
+    "zh": "急速之追求",
+    "en": "Pursuit of Haste"
+  },
+  "1332": {
+    "rarity": "kPrismatic",
+    "zh": "不祥契约",
+    "en": "Ominous Pact"
+  },
+  "1336": {
+    "rarity": "kGold",
+    "zh": "升级：无尽之刃",
+    "en": "Upgrade Infinity Edge"
+  },
+  "175": {
+    "rarity": "kGold",
+    "zh": "寄生关系",
+    "en": "Parasitic Relationship"
+  },
+  "88": {
+    "rarity": "kPrismatic",
+    "zh": "终极刷新",
+    "en": "Ultimate Revolution"
+  },
+  "2080": {
+    "rarity": "kGold",
+    "zh": "冰雪爆裂",
+    "en": "Snowblast"
+  },
+  "1321": {
+    "rarity": "kPrismatic",
+    "zh": "砍伤",
+    "en": "Gash"
+  },
+  "3171": {
+    "rarity": "kGold",
+    "zh": "力量",
+    "en": "POWER"
+  },
+  "1004": {
+    "rarity": "kPrismatic",
+    "zh": "回归基本功",
+    "en": "Back To Basics"
+  },
+  "351": {
+    "rarity": "kEventChoice",
+    "zh": "冰霜之锤",
+    "en": "Frozen Mallet"
+  },
+  "28": {
+    "rarity": "kSilver",
+    "zh": "侵蚀",
+    "en": "Erosion"
+  },
+  "118": {
+    "rarity": "kGold",
+    "zh": "会心治疗",
+    "en": "Critical Healing"
+  },
+  "361": {
+    "rarity": "kEventChoice",
+    "zh": "与【恶魔】结盟",
+    "en": "Ally Demon"
+  },
+  "375": {
+    "rarity": "kGold",
+    "zh": "米饭和鱼肉",
+    "en": "Rice and Fish"
+  },
+  "1329": {
+    "rarity": "kPrismatic",
+    "zh": "史上最大雪球",
+    "en": "Biggest Snowball Ever"
+  },
+  "231": {
+    "rarity": "kGold",
+    "zh": "光明守望者",
+    "en": "Light Warden"
+  },
+  "1105": {
+    "rarity": "kSilver",
+    "zh": "家园卫士",
+    "en": "Homeguard"
+  },
+  "232": {
+    "rarity": "kSilver",
+    "zh": "史莱姆时间",
+    "en": "Slime Time"
+  },
+  "313": {
+    "rarity": "kGold",
+    "zh": "坦克引擎",
+    "en": "Tank Engine"
+  },
+  "2078": {
+    "rarity": "kGold",
+    "zh": "连锁反应",
+    "en": "Chain Reaction"
+  },
+  "1088": {
+    "rarity": "kPrismatic",
+    "zh": "终极刷新",
+    "en": "Ultimate Revolution"
+  },
+  "240": {
+    "rarity": "kSilver",
+    "zh": "寄生突变",
+    "en": "Parasitic Mutation"
+  },
+  "341": {
+    "rarity": "kEventChoice",
+    "zh": "获得一个强化符文栏位",
+    "en": "Gain an Augment slot"
+  },
+  "1118": {
+    "rarity": "kGold",
+    "zh": "会心治疗",
+    "en": "Critical Healing"
+  },
+  "80": {
+    "rarity": "kSilver",
+    "zh": "会心防守",
+    "en": "Tank It Or Leave It"
+  },
+  "97": {
+    "rarity": "kSilver",
+    "zh": "巫师式思考",
+    "en": "Witchful Thinking"
+  },
+  "3052": {
+    "rarity": "kSilver",
+    "zh": "远射天资",
+    "en": "Hands off the Talent"
+  },
+  "150": {
+    "rarity": "kGold",
+    "zh": "面包和果酱",
+    "en": "Bread And Jam"
+  },
+  "45": {
+    "rarity": "kPrismatic",
+    "zh": "炼狱导管",
+    "en": "Infernal Conduit"
+  },
+  "3018": {
+    "rarity": "kPrismatic",
+    "zh": "大腕",
+    "en": "Big Shot"
+  },
+  "2031": {
+    "rarity": "kPrismatic",
+    "zh": "空投熊",
+    "en": "DropBear"
+  },
+  "1330": {
+    "rarity": "kSilver",
+    "zh": "活力再生",
+    "en": "ReEnergize"
+  },
+  "318": {
+    "rarity": "kGold",
+    "zh": "任务：疯狂帽子人",
+    "en": "Quest: Mad Hatter"
+  },
+  "241": {
+    "rarity": "kGold",
+    "zh": "帽子戏法",
+    "en": "Hat Trick"
+  },
+  "2095": {
+    "rarity": "kPrismatic",
+    "zh": "掷骰狂人",
+    "en": "High Roller"
+  },
+  "319": {
+    "rarity": "kGold",
+    "zh": "任务：三圣宝",
+    "en": "Quest: Three Sacred Treasures"
+  },
+  "2062": {
+    "rarity": "kPrismatic",
+    "zh": "回响施放",
+    "en": "Echo Cast"
+  },
+  "1343": {
+    "rarity": "kPrismatic",
+    "zh": "王中王，靴中靴",
+    "en": "Sneakerhead"
+  },
+  "32": {
+    "rarity": "kSilver",
+    "zh": "裁决使",
+    "en": "Executioner"
+  },
+  "2136": {
+    "rarity": "kSilver",
+    "zh": "可靠武器",
+    "en": "Trusty Weapon"
+  },
+  "320": {
+    "rarity": "kSilver",
+    "zh": "精算风险",
+    "en": "Calculated Risk"
+  },
+  "7006": {
+    "rarity": "kSilver",
+    "zh": "又快又狠",
+    "en": "Stabby Stabby"
+  },
+  "237": {
+    "rarity": "kSilver",
+    "zh": "质变：黄金阶",
+    "en": "Transmute: Gold"
+  },
+  "10": {
+    "rarity": "kSilver",
+    "zh": "炮灰",
+    "en": "Cannon Fodder"
+  },
+  "1039": {
+    "rarity": "kSilver",
+    "zh": "冰霜 幽灵",
+    "en": "Frost Wraith"
+  },
+  "30": {
+    "rarity": "kPrismatic",
+    "zh": "尤里卡",
+    "en": "Eureka"
+  },
+  "238": {
+    "rarity": "kGold",
+    "zh": "质变：棱彩阶",
+    "en": "Transmute: Prismatic"
+  },
+  "2107": {
+    "rarity": "kPrismatic",
+    "zh": "濒死悟道",
+    "en": "Hellbent"
+  },
+  "218": {
+    "rarity": "kSilver",
+    "zh": "亵渎者",
+    "en": "Desecrator"
+  },
+  "59": {
+    "rarity": "kGold",
+    "zh": "神话化身",
+    "en": "Mythical"
+  },
+  "50": {
+    "rarity": "kGold",
+    "zh": "基石法师",
+    "en": "Keystone Conjurer"
+  },
+  "1068": {
+    "rarity": "kGold",
+    "zh": "循环往复",
+    "en": "Recursion"
+  },
+  "205": {
+    "rarity": "kSilver",
+    "zh": "物理转魔法",
+    "en": "ADAPt"
+  },
+  "379": {
+    "rarity": "kPrismatic",
+    "zh": "野火",
+    "en": "Wild Fire"
+  },
+  "1151": {
+    "rarity": "kGold",
+    "zh": "面包和奶酪",
+    "en": "Bread and Cheese"
+  },
+  "1379": {
+    "rarity": "kPrismatic",
+    "zh": "升级：花晓之剑",
+    "en": "Upgrade Sword of Blossoming Dawn"
+  },
+  "181": {
+    "rarity": "kSilver",
+    "zh": "重量级打击手",
+    "en": "Heavy Hitter"
+  },
+  "7015": {
+    "rarity": "kSilver",
+    "zh": "召唤师的游猎",
+    "en": "Summoner's Safari"
+  },
+  "116": {
+    "rarity": "kGold",
+    "zh": "闪现向前",
+    "en": "Flashy"
+  },
+  "3039": {
+    "rarity": "kGold",
+    "zh": "拯救",
+    "en": "Salvation"
+  },
+  "3118": {
+    "rarity": "kGold",
+    "zh": "奥术公理",
+    "en": "Arcane Axiom"
+  },
+  "1041": {
+    "rarity": "kPrismatic",
+    "zh": "歌利亚巨人",
+    "en": "Goliath"
+  },
+  "388": {
+    "rarity": "kGold",
+    "zh": "炫彩跃动",
+    "en": "Chroma Flux"
+  },
+  "223": {
+    "rarity": "kGold",
+    "zh": "召唤师革新",
+    "en": "Summoner Revolution"
+  },
+  "16": {
+    "rarity": "kGold",
+    "zh": "连招大师",
+    "en": "Combo Master"
+  },
+  "105": {
+    "rarity": "kSilver",
+    "zh": "家园卫士",
+    "en": "Homeguard"
+  },
+  "376": {
+    "rarity": "kGold",
+    "zh": "米饭和猪肉",
+    "en": "Rice and Pork"
+  },
+  "2115": {
+    "rarity": "kPrismatic",
+    "zh": "软弹啪叽抓",
+    "en": "Squishy Slappy Grab"
+  },
+  "1047": {
+    "rarity": "kGold",
+    "zh": "关键暴击",
+    "en": "It's Critical"
+  },
+  "1208": {
+    "rarity": "kPrismatic",
+    "zh": "轨道镭射",
+    "en": "Orbital Laser"
+  },
+  "1328": {
+    "rarity": "kGold",
+    "zh": "暴击律动",
+    "en": "Critical Rhythm"
+  },
+  "397": {
+    "rarity": "kPrismatic",
+    "zh": "他们心里有只狗",
+    "en": "Got That Dog In Em"
+  },
+  "1420": {
+    "rarity": "kGold",
+    "zh": "咏叹奏鸣",
+    "en": "Sonata"
+  },
+  "312": {
+    "rarity": "kGold",
+    "zh": "我们马上就回来",
+    "en": "We'll Be Right Back"
+  },
+  "1347": {
+    "rarity": "kSilver",
+    "zh": "吵闹鬼",
+    "en": "Poltergeist"
+  },
+  "3123": {
+    "rarity": "kGold",
+    "zh": "珠光手镯",
+    "en": "Jeweled Bracelet"
+  },
+  "57": {
+    "rarity": "kSilver",
+    "zh": "山脉龙魂",
+    "en": "Mountain Soul"
+  },
+  "1421": {
+    "rarity": "kPrismatic",
+    "zh": "舞会女王",
+    "en": "Prom Queen"
+  },
+  "2055": {
+    "rarity": "kPrismatic",
+    "zh": "多重射击",
+    "en": "Multishot"
+  },
+  "2157": {
+    "rarity": "kSilver",
+    "zh": "升级：死亡之舞",
+    "en": "Upgrade Death's Dance"
+  },
+  "38": {
+    "rarity": "kGold",
+    "zh": "有始有终",
+    "en": "From Beginning to End"
+  },
+  "54": {
+    "rarity": "kPrismatic",
+    "zh": "物法皆修",
+    "en": "Master of Duality"
+  },
+  "356": {
+    "rarity": "kSilver",
+    "zh": "银汤匙",
+    "en": "Silver Spoon"
+  },
+  "1406": {
+    "rarity": "kGold",
+    "zh": "祖母的辣椒油",
+    "en": "Grandma's Chili Oil"
+  },
+  "166": {
+    "rarity": "kPrismatic",
+    "zh": "连锁闪电",
+    "en": "Chain Lightning"
+  },
+  "226": {
+    "rarity": "kSilver",
+    "zh": "属性！",
+    "en": "Stats!"
+  },
+  "2009": {
+    "rarity": "kSilver",
+    "zh": "狂热者",
+    "en": "Zealot"
+  },
+  "74": {
+    "rarity": "kGold",
+    "zh": "缩小射线",
+    "en": "Shrink Ray"
+  },
+  "2111": {
+    "rarity": "kGold",
+    "zh": "邦！",
+    "en": "BONK!"
+  },
+  "2002": {
+    "rarity": "kPrismatic",
+    "zh": "虚空裂隙",
+    "en": "Void Rift"
+  },
+  "65": {
+    "rarity": "kGold",
+    "zh": "超凡邪恶",
+    "en": "Phenomenal Evil"
+  },
+  "1036": {
+    "rarity": "kGold",
+    "zh": "火上浇油",
+    "en": "Firebrand"
+  },
+  "396": {
+    "rarity": "kPrismatic",
+    "zh": "死亡交易者",
+    "en": "Death Dealer"
+  },
+  "1080": {
+    "rarity": "kSilver",
+    "zh": "会心防御",
+    "en": "Tank It Or Leave It"
+  },
+  "229": {
+    "rarity": "kSilver",
+    "zh": "火爆甩卖",
+    "en": "Fire Sale"
+  },
+  "7011": {
+    "rarity": "kPrismatic",
+    "zh": "真正的永恒",
+    "en": "True Eternity"
+  },
+  "3132": {
+    "rarity": "kGold",
+    "zh": "王冠之重",
+    "en": "Heavy Is The Crown"
+  },
+  "176": {
+    "rarity": "kSilver",
+    "zh": "雪球大战！",
+    "en": "Snowball Fight!"
+  },
+  "1154": {
+    "rarity": "kPrismatic",
+    "zh": "海牛阿福的勇士",
+    "en": "Urf's Champion"
+  },
+  "1416": {
+    "rarity": "kSilver",
+    "zh": "海克斯科技龙魂",
+    "en": "Hextech Soul"
+  },
+  "1152": {
+    "rarity": "kGold",
+    "zh": "钢化你心",
+    "en": "Steel Your Heart"
+  },
+  "2143": {
+    "rarity": "kGold",
+    "zh": "升级：焚天",
+    "en": "Upgrade Sundered Sky"
+  },
+  "1391": {
+    "rarity": "kGold",
+    "zh": "红包",
+    "en": "Red Envelopes"
+  },
+  "364": {
+    "rarity": "kEventChoice",
+    "zh": "替换强化符文",
+    "en": "Replace Augment"
+  },
+  "1335": {
+    "rarity": "kPrismatic",
+    "zh": "夺金",
+    "en": "Goldrend"
+  },
+  "22": {
+    "rarity": "kSilver",
+    "zh": "灵巧",
+    "en": "Deft"
+  },
+  "1411": {
+    "rarity": "kSilver",
+    "zh": "升级：荆棘之甲",
+    "en": "Upgrade Thornmail"
+  },
+  "21": {
+    "rarity": "kGold",
+    "zh": "防御计略",
+    "en": "Defensive Maneuvers"
+  },
+  "1116": {
+    "rarity": "kGold",
+    "zh": "闪现向前",
+    "en": "Flashy"
+  },
+  "41": {
+    "rarity": "kPrismatic",
+    "zh": "歌利亚巨人",
+    "en": "Goliath"
+  },
+  "1006": {
+    "rarity": "kPrismatic",
+    "zh": "利刃华尔兹",
+    "en": "Blade Waltz"
+  },
+  "1187": {
+    "rarity": "kSilver",
+    "zh": "闪光弹",
+    "en": "Flashbang"
+  },
+  "2135": {
+    "rarity": "kPrismatic",
+    "zh": "针插垫",
+    "en": "Pin Cushion"
+  },
+  "81": {
+    "rarity": "kPrismatic",
+    "zh": "踢踏舞",
+    "en": "Tap Dancer"
+  },
+  "133": {
+    "rarity": "kGold",
+    "zh": "魔法飞弹",
+    "en": "Magic Missile"
+  },
+  "49": {
+    "rarity": "kSilver",
+    "zh": "果汁盒",
+    "en": "Juice Box"
+  },
+  "2043": {
+    "rarity": "kGold",
+    "zh": "自然即是治愈",
+    "en": "Nature is Healing"
+  },
+  "2010": {
+    "rarity": "kPrismatic",
+    "zh": "双发快射",
+    "en": "Double Tap"
+  },
+  "1243": {
+    "rarity": "kPrismatic",
+    "zh": "质变：混沌",
+    "en": "Transmute: Chaos"
+  },
+  "1057": {
+    "rarity": "kSilver",
+    "zh": "山脉龙魂",
+    "en": "Mountain Soul"
+  },
+  "2004": {
+    "rarity": "kPrismatic",
+    "zh": "信念者的强化",
+    "en": "Empowered By The Faithful"
+  },
+  "1389": {
+    "rarity": "kPrismatic",
+    "zh": "男爵之手",
+    "en": "Hand of Baron"
+  },
+  "72": {
+    "rarity": "kGold",
+    "zh": "炽烈黎明",
+    "en": "Searing Dawn"
+  },
+  "323": {
+    "rarity": "kPrismatic",
+    "zh": "地狱三头犬",
+    "en": "Cerberus"
+  },
+  "92": {
+    "rarity": "kGold",
+    "zh": "易损",
+    "en": "Vulnerability"
+  },
+  "31": {
+    "rarity": "kSilver",
+    "zh": "活力焕发",
+    "en": "Evocation"
+  },
+  "52": {
+    "rarity": "kGold",
+    "zh": "闪电打击",
+    "en": "Lightning Strikes"
+  },
+  "380": {
+    "rarity": "kGold",
+    "zh": "仁慈",
+    "en": "Mercy"
+  },
+  "7007": {
+    "rarity": "kGold",
+    "zh": "升级：冥火之拥",
+    "en": "Upgrade: Deathfire Grasp"
+  },
+  "104": {
+    "rarity": "kGold",
+    "zh": "仆从大师",
+    "en": "Minionmancer"
+  },
+  "1011": {
+    "rarity": "kPrismatic",
+    "zh": "你摸不到",
+    "en": "Can't Touch This"
+  },
+  "1095": {
+    "rarity": "kPrismatic",
+    "zh": "风语者的祝福",
+    "en": "Windspeaker's Blessing"
+  },
+  "1112": {
+    "rarity": "kSilver",
+    "zh": "终极不可阻挡",
+    "en": "Ultimate Unstoppable"
+  },
+  "8": {
+    "rarity": "kSilver",
+    "zh": "雪橇战术",
+    "en": "Buckle Up"
+  },
+  "393": {
+    "rarity": "kPrismatic",
+    "zh": "艾卡西亚的陷落",
+    "en": "Icathia's Fall"
+  },
+  "40": {
+    "rarity": "kSilver",
+    "zh": "冰封地基",
+    "en": "Frozen Foundations"
+  },
+  "192": {
+    "rarity": "kGold",
+    "zh": "任务：惩戒天使",
+    "en": "Quest: Angel of Retribution"
+  },
+  "33": {
+    "rarity": "kGold",
+    "zh": "弹簧飞爪",
+    "en": "Extendo-Arm"
+  },
+  "15": {
+    "rarity": "kPrismatic",
+    "zh": "死亡之环",
+    "en": "Circle of Death"
+  },
+  "405": {
+    "rarity": "kPrismatic",
+    "zh": "强化符文405",
+    "en": "Augment 405"
+  },
+  "3172": {
+    "rarity": "kGold",
+    "zh": "鞭挞",
+    "en": "THRASH"
+  },
+  "365": {
+    "rarity": "kEventChoice",
+    "zh": "戒绝财富",
+    "en": "Abstain From Wealth"
+  },
+  "1401": {
+    "rarity": "kGold",
+    "zh": "生机迸发",
+    "en": "Growth Spurt"
+  },
+  "2016": {
+    "rarity": "kSilver",
+    "zh": "注魔",
+    "en": "Juiced"
+  },
+  "3150": {
+    "rarity": "kGold",
+    "zh": "升级：风暴狂涌",
+    "en": "Upgrade Stormsurge"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "note": "synthetic ordinary ARAM detail. gameMode ARAM must not become Mayhem.",
+  "gameId": "450001",
+  "platformId": "NA1",
+  "queueId": 450,
+  "gameMode": "ARAM",
+  "gameCreation": 1761000000000,
+  "gameDuration": 1200,
+  "participants": [
+    { "participantId": 1, "puuid": "self-puuid-secret", "championId": 157, "win": true, "kills": 10, "deaths": 2, "assists": 8 }
+  ]
+}

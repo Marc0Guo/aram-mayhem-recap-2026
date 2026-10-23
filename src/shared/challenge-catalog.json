@@ -1,0 +1,128 @@
+{
+  "101101": {
+    "en": "DPS Threat",
+    "zh": "伤害爆表",
+    "enHint": "Deal more than 1800 DPM",
+    "zhHint": "造成分均1800以上的伤害"
+  },
+  "101102": {
+    "en": "Double Decimation",
+    "zh": "极地五杀x2",
+    "enHint": "Get two Pentakills in a single game",
+    "zhHint": "在单场对局中获得2个五杀"
+  },
+  "101103": {
+    "en": "ARAM Legend",
+    "zh": "极地传说",
+    "enHint": "Go Legendary",
+    "zhHint": "完成超神"
+  },
+  "101104": {
+    "en": "Bad Medicine",
+    "zh": "回血不如回温泉",
+    "enHint": "Kill enemies recently healed by a health pack",
+    "zhHint": "击杀近期被治疗包治疗过的英雄"
+  },
+  "101105": {
+    "en": "No Hiding",
+    "zh": "别躲了",
+    "enHint": "Kill enemies near one of their turrets",
+    "zhHint": "击杀在敌方防御塔附近的敌人们  "
+  },
+  "101106": {
+    "en": "ARAM Eradication",
+    "zh": "极地五杀",
+    "enHint": "Get Pentakills",
+    "zhHint": "获得五杀"
+  },
+  "101107": {
+    "en": "Farm Champs Not Minions",
+    "zh": "只补英雄不补兵",
+    "enHint": "Get Takedowns",
+    "zhHint": "参与击杀 "
+  },
+  "101108": {
+    "en": "Solo Carry",
+    "zh": "极地大腿",
+    "enHint": "Deal 40%+ of your team's champion damage",
+    "zhHint": "对英雄伤害占比达己方队伍的40%以上"
+  },
+  "101201": {
+    "en": "Another Day, Another Bullseye",
+    "zh": "百步穿杨",
+    "enHint": "Hit skillshots on champions",
+    "zhHint": "用技巧射击命中英雄"
+  },
+  "101202": {
+    "en": "It was a... Near-Hit",
+    "zh": "呃……差点就中了",
+    "enHint": "Dodge skillshots",
+    "zhHint": "躲避技巧射击 "
+  },
+  "101203": {
+    "en": "Snow Day",
+    "zh": "雪球大战",
+    "enHint": "Hit snowballs on champions",
+    "zhHint": "用雪球命中英雄"
+  },
+  "101204": {
+    "en": "Free Money",
+    "zh": "免费的钱",
+    "enHint": "Kill minions",
+    "zhHint": "击杀小兵"
+  },
+  "101205": {
+    "en": "Free Ticket to Base",
+    "zh": "免费回城",
+    "enHint": "Execute to turret before 10 min",
+    "zhHint": "在10分钟以内送塔 "
+  },
+  "101206": {
+    "en": "Pop Goes the Poro",
+    "zh": "魄罗破咯",
+    "enHint": "Cause a Poro to explode",
+    "zhHint": "导致一个魄罗爆炸"
+  },
+  "101301": {
+    "en": "All Random All Champions",
+    "zh": "全随机全英雄",
+    "enHint": "Earn an S- grade on <em>different champions</em>",
+    "zhHint": "用<em>不同的英雄</em>各拿到1次S-评级 "
+  },
+  "101302": {
+    "en": "All Random All Flawless",
+    "zh": "极地无瑕",
+    "enHint": "Earn S grades or higher",
+    "zhHint": "拿到S或以上评级"
+  },
+  "101303": {
+    "en": "Rapid Demolition",
+    "zh": "疾速拆塔",
+    "enHint": "Take the first turret before 5 min",
+    "zhHint": "在5分钟之前拿下【第一座塔】 "
+  },
+  "101304": {
+    "en": "Lightning Round",
+    "zh": "闪电战",
+    "enHint": "Win games before 13 min",
+    "zhHint": "赢得对局且用时在13分钟以内"
+  },
+  "101305": {
+    "en": "Active Participant",
+    "zh": "团战积极分子",
+    "enHint": "Have over 90% Kill Participation in games",
+    "zhHint": "拥有90%以上的击杀参与率"
+  },
+  "101306": {
+    "en": "Can't Touch This",
+    "zh": "走位飘忽",
+    "enHint": "Win without being killed by an enemy",
+    "zhHint": "赢得对局且未被敌人击杀过"
+  },
+  "101307": {
+    "en": "NA-RAM",
+    "zh": "乱斗狂人",
+    "enHint": "Win games",
+    "zhHint": "赢得对局"
+  }
+}

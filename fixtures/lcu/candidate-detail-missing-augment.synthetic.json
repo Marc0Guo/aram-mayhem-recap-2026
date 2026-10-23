@@ -1,0 +1,10 @@
+{
+  "note": "synthetic detail with no augment field. Missing augments are unavailable, not zero.",
+  "gameId": "2400001",
+  "platformId": "NA1",
+  "queueId": 2400,
+  "gameCreation": 1761001000000,
+  "participants": [
+    { "participantId": 7, "puuid": "self-puuid-secret", "championId": 222, "stats": { "kills": 3 } }
+  ]
+}

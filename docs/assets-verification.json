@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-21T04:57:39.381Z",
+  "demoOnly": true,
+  "releaseGate": {
+    "passed": false,
+    "reason": "No sanitized Mayhem fixture exists, so an augment observed in a real match was not verified."
+  },
+  "dataDragon": {
+    "version": "16.21.1",
+    "locale": "en_US",
+    "exampleNotFromMayhemFixture": true,
+    "champion": {
+      "id": "157",
+      "name": "Yasuo",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Yasuo.png",
+      "sha256": "25a7597bfbd3198740b56d369734542f9e7b2100645d9f1199d969c7e1538ffb",
+      "contentType": "image/png",
+      "width": 128,
+      "height": 128
+    },
+    "item": {
+      "id": "3031",
+      "name": "Infinity Edge",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3031.png",
+      "sha256": "39382e1bef39a48d14e6d37e52e9d02068df9153ca60c2bcca033dd276fae5df",
+      "contentType": "image/png",
+      "width": 64,
+      "height": 64
+    }
+  },
+  "communityDragon": {
+    "metadataReachable": true,
+    "pinnedPatch": null,
+    "note": "latest was used only to confirm metadata is reachable. No image URL was pinned from latest, and no Mayhem augment was resolved."
+  },
+  "errors": []
+}
