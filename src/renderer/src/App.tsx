@@ -5,6 +5,8 @@ import type { Bootstrap, IconCatalog, MatchPage, SyncView } from '@shared/bridge
 import { t, type MessageKey } from '@shared/i18n'
 import type { DashboardModel, DatePreset, Locale, MatchDetail } from '@shared/types'
 import { Recap } from './Recap'
+import { SyncControls } from './SyncControls'
+import { syncFinished } from '@shared/sync-status'
 import { ImportProgress, LeagueDirectory } from './LeagueDirectory'
 
 const presets: Array<{ id: DatePreset; label: MessageKey }> = [
@@ -40,6 +42,7 @@ export function App() {
   const [dash, setDash] = useState<DashboardModel | null>(null)
   const [page, setPage] = useState<MatchPage | null>(null)
   const [sync, setSync] = useState<SyncView | null>(null)
+  const [lastSync, setLastSync] = useState<SyncView | null>(null)
   const [detail, setDetail] = useState<MatchDetail | null>(null)
   const [settingsOpen, setSettingsOpen] = useState(false)
   const [title, setTitle] = useState('')
@@ -90,7 +93,8 @@ export function App() {
         setBoot(current => { if (current) void refresh(current, null); return current })
         return
       }
-      const finished = progress.state === 'complete' || progress.state === 'partialFailure' || progress.state === 'empty_page' || progress.state === 'repeated_page' || progress.state === 'overlap_stable' || progress.state === 'cancelled' || progress.state === 'partial_failure' || progress.state === 'budget_entries' || progress.state === 'budget_time' || progress.state === 'capability_forbidden' || progress.state === 'account_changed' || progress.state === 'offline'
+      const finished = syncFinished(progress.state)
+      setLastSync(progress)
       setSync(finished || progress.runId === 'players' ? null : progress)
       if (finished) {
         void window.aram.bootstrap().then(result => {
@@ -218,7 +222,7 @@ export function App() {
 
       </article>
       {detail ? <aside className="drawer" role="dialog" aria-label={text('drawerTitle')}><button type="button" onClick={() => setDetail(null)}>{text('close')}</button><h2>{icons?.champions[String(detail.championId)]?.name || detail.championName}</h2><p>{detail.startLabel}</p><p>{detail.resultLabel} · {detail.durationLabel}</p><p>{detail.kdaLabel} · {detail.damageLabel}</p><p>{detail.augments.map((augment) => icons?.augments[augment.augmentId]?.name || augment.augmentId).join(' / ') || text('augmentUnavailable')}</p></aside> : null}
-      {settingsOpen ? <Settings anonymous={anonymous} setAnonymous={(value) => {setAnonymous(value);localStorage.setItem('aram-anonymous',String(value));setExportMessage('')}} anonymousAlias={anonymousAlias} setAnonymousAlias={(value) => {setAnonymousAlias(value);localStorage.setItem('aram-anonymous-alias',value);setExportMessage('')}} boot={boot} title={title} setTitle={setTitle} includeAlias={includeAlias} setIncludeAlias={setIncludeAlias} confirmDelete={confirmDelete} setConfirmDelete={setConfirmDelete} onClose={() => setSettingsOpen(false)} onBoot={acceptBoot} exportMessage={exportMessage} /> : null}
+      {settingsOpen ? <Settings progress={lastSync} anonymous={anonymous} setAnonymous={(value) => {setAnonymous(value);localStorage.setItem('aram-anonymous',String(value));setExportMessage('')}} anonymousAlias={anonymousAlias} setAnonymousAlias={(value) => {setAnonymousAlias(value);localStorage.setItem('aram-anonymous-alias',value);setExportMessage('')}} boot={boot} title={title} setTitle={setTitle} includeAlias={includeAlias} setIncludeAlias={setIncludeAlias} confirmDelete={confirmDelete} setConfirmDelete={setConfirmDelete} onClose={() => setSettingsOpen(false)} onBoot={acceptBoot} exportMessage={exportMessage} /> : null}
     </main>
   )
 }
@@ -243,6 +247,7 @@ function Welcome({ boot, onChange, progress }: { boot: Bootstrap; onChange: (boo
 }
 
 function Settings(props: {
+  progress: SyncView | null
   anonymous: boolean
   setAnonymous: (value:boolean)=>void
   anonymousAlias: string
@@ -285,7 +290,7 @@ function Settings(props: {
       <LeagueDirectory boot={boot} onBoot={onBoot} />
       <p>{text('storagePath')}: {boot.storagePath} <button type="button" onClick={() => void window.aram.openLocation('data')}>{text('openFolder')}</button></p>
       <p>{text('logPath')}: {boot.logPath} <button type="button" onClick={() => void window.aram.openLocation('logs')}>{text('openFolder')}</button></p>
-      <p><button type="button" onClick={() => boot.activeAccountId && void window.aram.syncStart({ accountId: boot.activeAccountId, kind: 'manual' })}>{text('refresh')}</button> <button type="button" onClick={() => boot.activeAccountId && void window.aram.syncStart({ accountId: boot.activeAccountId, kind: 'continue' })}>{text('continueSync')}</button> <button type="button" onClick={() => boot.activeAccountId && void window.aram.syncStart({ accountId: boot.activeAccountId, kind: 'rebuild' })}>{text('rebuild')}</button></p>
+      <SyncControls boot={boot} progress={props.progress} />
       <label>{text('exportTitle')}<input type="text" value={props.title} onChange={(event) => props.setTitle(event.target.value)} /></label>
       <label><input type="checkbox" checked={props.includeAlias} onChange={(event) => props.setIncludeAlias(event.target.checked)} /> {text('includeAlias')}</label>
       {props.exportMessage ? <p>{props.exportMessage}</p> : null}

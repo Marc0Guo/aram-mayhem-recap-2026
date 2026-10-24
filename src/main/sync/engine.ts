@@ -106,6 +106,14 @@ export function launchMode(state: { needsBackfill: boolean; lastExhaustiveAt: nu
   return 'incremental'
 }
 
+export function requestedSyncMode(kind: 'launch' | 'manual' | 'continue' | 'rebuild', state: {adapterVersion: string | null; continuation: {needsBackfill: boolean; lastExhaustiveAt: number | null}} | null, adapterVersion: string): RunSyncOptions['mode'] {
+  if (kind === 'rebuild') return 'rebuild'
+  if (kind === 'continue') return 'backfill'
+  if (state && state.adapterVersion !== adapterVersion) return 'rebuild'
+  if (kind === 'manual') return 'incremental'
+  return launchMode(state ? state.continuation : null)
+}
+
 export function decideStart(input: {
   activeRunId: string | null
   lastManualAt: number | null
@@ -177,7 +185,7 @@ export async function runSync(options: RunSyncOptions): Promise<SyncRunResult> {
         partial: prior.needsBackfill && prior.lastExhaustiveAt == null,
         reason,
         pendingIds: [],
-        historyOffset: 0
+        historyOffset: prior.needsBackfill ? prior.historyOffset ?? 0 : 0
       }
     } else {
       const oldest = earliestSeen
@@ -189,7 +197,7 @@ export async function runSync(options: RunSyncOptions): Promise<SyncRunResult> {
         pendingIds: pending,
         lastExhaustiveAt: prior.lastExhaustiveAt,
         earliestAccessibleUtc: prior.earliestAccessibleUtc,
-        historyOffset: nextOffset
+        historyOffset: options.mode === 'incremental' && prior.needsBackfill ? prior.historyOffset ?? 0 : nextOffset
       }
     }
     repo.writeSyncState(account.accountId, {

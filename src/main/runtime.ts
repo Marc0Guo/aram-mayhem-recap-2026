@@ -16,7 +16,7 @@ import { openWrappedDatabase } from './db/open'
 import type { WrappedDatabase } from './db/repository'
 import { resolveGameIcons, type IconQuery } from './assets/icons'
 import { queryDashboard, queryDetail, queryExport, queryMatches } from './services/query'
-import { decideStart, launchMode, runSync, type SyncRunResult } from './sync/engine'
+import { decideStart, requestedSyncMode, runSync, type SyncRunResult } from './sync/engine'
 
 interface OpenedDb {
   paths: AppPaths
@@ -237,13 +237,13 @@ export class AppRuntime {
     if (!account) throw Object.assign(new Error('missing-account'), { code: 'missing_account' })
     void refreshAccountProfile(this.current.database, accountId, this.connection, this.setting('leagueDir') || 'C:/Riot Games/League of Legends', () => this.offline).then(() => { const event = { runId: 'profile', state: 'complete', discovered: 0, committed: 0, skipped: 0, failed: 0, accountId }; for (const listener of this.listeners) listener(event) }).catch(() => undefined)
     const state = this.current.database.readSyncState(accountId)
-    const mode = kind === 'rebuild' || kind === 'continue' || state?.adapterVersion !== CANDIDATE_ADAPTER_VERSION ? 'backfill' : kind === 'manual' ? launchMode(state ? { needsBackfill: state.continuation.needsBackfill, lastExhaustiveAt: state.continuation.lastExhaustiveAt } : null) : launchMode(state ? { needsBackfill: state.continuation.needsBackfill, lastExhaustiveAt: state.continuation.lastExhaustiveAt } : null)
+    const mode = requestedSyncMode(kind, state, CANDIDATE_ADAPTER_VERSION)
     if (kind === 'manual') this.lastManualAt = Date.now()
     const abort = new AbortController()
     const transport = createLiveTransport(() => this.connection, () => this.offline)
     let runId = ''
     const promise = runSync({
-      mode: kind === 'rebuild' ? 'rebuild' : mode === 'incremental' ? 'incremental' : 'backfill',
+      mode,
       adapter: {
         version: CANDIDATE_ADAPTER_VERSION,
         indexMode: 'endInclusive',

@@ -455,3 +455,8 @@ body::before{content:'';position:fixed;inset:-24px;background:linear-gradient(#0
 .welcome h1 { font-size: clamp(26px, 3vw, 34px); line-height: 1.3; }
 .league-directory > button { justify-self: start; padding: 10px 24px; font-size: 14px; }
 .league-directory .note { margin: 0; }
+
+.sync-controls { margin-block: 20px; padding-block: 16px; border-block: 1px solid var(--line); }
+.sync-controls progress { width: 100%; height: 14px; accent-color: #c8aa6e; }
+.sync-controls [role=alert] { color: #f4a6a6; }
+.sync-controls button:disabled { opacity: .5; cursor: not-allowed; }

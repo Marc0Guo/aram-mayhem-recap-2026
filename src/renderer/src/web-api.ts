@@ -37,12 +37,16 @@ export function installWebApi(): void {
     onSyncProgress: (callback) => {
       let after = 0
       let stopped = false
+      let inFlight = false
       const tick = async () => {
-        if (stopped) return
-        const result = await call<{ events: SyncView[]; cursor: number }>(`/api/events?after=${after}`)
-        if (!result.ok || stopped) return
-        after = result.data.cursor
-        for (const event of result.data.events) callback(event)
+        if (stopped || inFlight) return
+        inFlight = true
+        try {
+          const result = await call<{ events: SyncView[]; cursor: number }>(`/api/events?after=${after}`)
+          if (!result.ok || stopped) return
+          after = result.data.cursor
+          for (const event of result.data.events) callback(event)
+        } finally { inFlight = false }
       }
       const timer = window.setInterval(() => { void tick() }, 1000)
       void tick()
