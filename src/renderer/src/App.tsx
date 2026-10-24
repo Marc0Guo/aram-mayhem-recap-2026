@@ -5,6 +5,7 @@ import type { Bootstrap, IconCatalog, MatchPage, SyncView } from '@shared/bridge
 import { t, type MessageKey } from '@shared/i18n'
 import type { DashboardModel, DatePreset, Locale, MatchDetail } from '@shared/types'
 import { Recap } from './Recap'
+import { ImportProgress, LeagueDirectory } from './LeagueDirectory'
 
 const presets: Array<{ id: DatePreset; label: MessageKey }> = [
   { id: 'last7', label: 'presetLast7' },
@@ -24,6 +25,12 @@ const noticeKey: Record<string, MessageKey> = {
 
 export function App() {
   const [boot, setBoot] = useState<Bootstrap | null>(null)
+  const [initialImport, setInitialImport] = useState(false)
+  function acceptBoot(next: Bootstrap) {
+    if (next.mode === 'demo') setInitialImport(false)
+    else if (!next.hasCachedMatches) setInitialImport(true)
+    setBoot(next)
+  }
   const [preset, setPreset] = useState<DatePreset>('all')
   const [customStart, setCustomStart] = useState('')
   const [customEnd, setCustomEnd] = useState('')
@@ -32,7 +39,6 @@ export function App() {
   const [itemId, setItemId] = useState<number | null>(null)
   const [dash, setDash] = useState<DashboardModel | null>(null)
   const [page, setPage] = useState<MatchPage | null>(null)
-  const [cursors, setCursors] = useState<Array<string | null>>([null])
   const [sync, setSync] = useState<SyncView | null>(null)
   const [detail, setDetail] = useState<MatchDetail | null>(null)
   const [settingsOpen, setSettingsOpen] = useState(false)
@@ -77,17 +83,25 @@ export function App() {
   useEffect(() => {
     if (!window.aram) return
     void window.aram.bootstrap().then((result) => {
-      if (result.ok) setBoot(result.data)
+      if (result.ok) acceptBoot(result.data)
     })
     return window.aram.onSyncProgress((progress) => {
-      const finished = progress.state === 'complete' || progress.state === 'partialFailure' || progress.state === 'empty_page' || progress.state === 'repeated_page' || progress.state === 'overlap_stable' || progress.state === 'cancelled' || progress.state === 'partial_failure' || progress.state === 'budget_entries' || progress.state === 'budget_time' || progress.state === 'capability_forbidden' || progress.state === 'account_changed'
+      if (progress.runId === 'players' || progress.runId === 'profile') {
+        setBoot(current => { if (current) void refresh(current, null); return current })
+        return
+      }
+      const finished = progress.state === 'complete' || progress.state === 'partialFailure' || progress.state === 'empty_page' || progress.state === 'repeated_page' || progress.state === 'overlap_stable' || progress.state === 'cancelled' || progress.state === 'partial_failure' || progress.state === 'budget_entries' || progress.state === 'budget_time' || progress.state === 'capability_forbidden' || progress.state === 'account_changed' || progress.state === 'offline'
       setSync(finished || progress.runId === 'players' ? null : progress)
-      setBoot((current) => {
-        if (current && (finished || progress.state === 'committing' || progress.state === 'complete' || progress.state === 'partialFailure')) {
-          void refresh(current, cursors.at(-1) ?? null)
-        }
-        return current
-      })
+      if (finished) {
+        void window.aram.bootstrap().then(result => {
+          if (result.ok) { setInitialImport(false); setBoot(result.data); void refresh(result.data, null) }
+        })
+      } else {
+        setBoot(current => {
+          if (current && progress.state === 'committing') void refresh(current, null)
+          return current
+        })
+      }
     })
   }, [])
 
@@ -152,7 +166,7 @@ export function App() {
       </main>
     )
   }
-  if (!boot.activeAccountId && boot.mode === 'real' && !boot.hasCachedMatches) return <Welcome boot={boot} onChange={setBoot} />
+  if (boot.mode === 'real' && (!boot.hasCachedMatches || initialImport)) return <Welcome boot={boot} onChange={acceptBoot} progress={sync} />
 
   const realAlias = dash?.accountAlias ?? boot.accounts.find((account) => account.accountId === boot.activeAccountId)?.alias ?? ''
   const alias = anonymous ? anonymousName(anonymousAlias, locale) : realAlias
@@ -161,13 +175,13 @@ export function App() {
       <article className="poster">
         <header className="poster-tools">
           <nav className="toolbar" aria-label={text('inclusiveDates')}>
-            {presets.map((item) => <button key={item.id} type="button" data-testid={`preset-${item.id}`} aria-pressed={preset === item.id} onClick={() => { setPreset(item.id); setCursors([null]) }}>{text(item.label)}</button>)}
+            {presets.map((item) => <button key={item.id} type="button" data-testid={`preset-${item.id}`} aria-pressed={preset === item.id} onClick={() => { setPreset(item.id) }}>{text(item.label)}</button>)}
             {preset === 'custom' ? <><input data-testid="custom-start" aria-label={text('customStart')} type="date" value={customStart} onChange={(event) => setCustomStart(event.target.value)} /><input data-testid="custom-end" aria-label={text('customEnd')} type="date" value={customEnd} onChange={(event) => setCustomEnd(event.target.value)} /></> : null}
             <span className="range-label">{text('lastScan')}: {dash?.lastScanLabel ?? text('neverScanned')}</span>
           </nav>
           <div className="actions">
             <button type="button" aria-pressed={material === 'glass'} onClick={() => { const next = material === 'glass' ? 'solid' : 'glass'; setMaterial(next); localStorage.setItem('aram-material', next) }}>{locale === 'zh-CN' ? (material === 'glass' ? '玻璃' : '实色') : (material === 'glass' ? 'Glass' : 'Solid')}</button>
-            <select aria-label={text('locale')} data-testid="language-switch" value={locale} onChange={(event) => { setIcons(null); void window.aram.updateSettings({ locale: event.target.value as Locale, timeZone: boot.timeZone, offline: boot.offline, imageDownloads: boot.imageDownloads, leagueDir: boot.leagueDir }).then((result) => { if (result.ok) setBoot(result.data) }) }}><option value="zh-CN">简体中文</option><option value="en">English</option></select>
+            <select aria-label={text('locale')} data-testid="language-switch" value={locale} onChange={(event) => { setIcons(null); void window.aram.updateSettings({ locale: event.target.value as Locale, timeZone: boot.timeZone, offline: boot.offline, imageDownloads: boot.imageDownloads, leagueDir: boot.leagueDir }).then((result) => { if (result.ok) acceptBoot(result.data) }) }}><option value="zh-CN">简体中文</option><option value="en">English</option></select>
             <button type="button" onClick={() => setSettingsOpen(true)}>{text('settings')}</button>
             <button type="button" className="primary" onClick={() => void exportPng()} data-testid="export" disabled={exporting || iconsLoading || !dash || dash.locale !== locale} aria-busy={exporting}>{exporting ? (locale === 'zh-CN' ? '正在导出…' : 'Exporting…') : text('exportPng')}</button>
           </div>
@@ -204,22 +218,26 @@ export function App() {
 
       </article>
       {detail ? <aside className="drawer" role="dialog" aria-label={text('drawerTitle')}><button type="button" onClick={() => setDetail(null)}>{text('close')}</button><h2>{icons?.champions[String(detail.championId)]?.name || detail.championName}</h2><p>{detail.startLabel}</p><p>{detail.resultLabel} · {detail.durationLabel}</p><p>{detail.kdaLabel} · {detail.damageLabel}</p><p>{detail.augments.map((augment) => icons?.augments[augment.augmentId]?.name || augment.augmentId).join(' / ') || text('augmentUnavailable')}</p></aside> : null}
-      {settingsOpen ? <Settings anonymous={anonymous} setAnonymous={(value) => {setAnonymous(value);localStorage.setItem('aram-anonymous',String(value));setExportMessage('')}} anonymousAlias={anonymousAlias} setAnonymousAlias={(value) => {setAnonymousAlias(value);localStorage.setItem('aram-anonymous-alias',value);setExportMessage('')}} boot={boot} title={title} setTitle={setTitle} includeAlias={includeAlias} setIncludeAlias={setIncludeAlias} confirmDelete={confirmDelete} setConfirmDelete={setConfirmDelete} onClose={() => setSettingsOpen(false)} onBoot={setBoot} exportMessage={exportMessage} /> : null}
+      {settingsOpen ? <Settings anonymous={anonymous} setAnonymous={(value) => {setAnonymous(value);localStorage.setItem('aram-anonymous',String(value));setExportMessage('')}} anonymousAlias={anonymousAlias} setAnonymousAlias={(value) => {setAnonymousAlias(value);localStorage.setItem('aram-anonymous-alias',value);setExportMessage('')}} boot={boot} title={title} setTitle={setTitle} includeAlias={includeAlias} setIncludeAlias={setIncludeAlias} confirmDelete={confirmDelete} setConfirmDelete={setConfirmDelete} onClose={() => setSettingsOpen(false)} onBoot={acceptBoot} exportMessage={exportMessage} /> : null}
     </main>
   )
 }
 
-function Welcome({ boot, onChange }: { boot: Bootstrap; onChange: (boot: Bootstrap) => void }) {
+function Welcome({ boot, onChange, progress }: { boot: Bootstrap; onChange: (boot: Bootstrap) => void; progress: SyncView | null }) {
   const text = (key: MessageKey) => t(boot.locale, key)
   return (
     <main className="welcome">
       <h1>{text('welcomeTitle')}</h1>
-      <p>{text('welcomeBody')}</p>
-      <div className="actions">
-        <button className="primary" type="button" onClick={() => void window.aram.connectLeague().then((result) => { if (result.ok) onChange(result.data) })}>{text('connect')}</button>
-        <button type="button" onClick={() => void window.aram.useDemo().then((result) => { if (result.ok) onChange(result.data) })}>{text('tryDemo')}</button>
-      </div>
-      {boot.discovery.state !== 'found' && boot.discovery.state !== 'pending' && boot.discovery.state !== 'skipped' ? <p>{text('discoveryMissing')} <button type="button" onClick={() => void window.aram.openLeague()}>{text('openLeague')}</button> <button type="button" onClick={() => void window.aram.retryDiscovery()}>{text('retry')}</button></p> : null}
+      {progress ? <ImportProgress progress={progress} locale={boot.locale} /> : <>
+        <p>{boot.locale === 'zh-CN' ? '先连接已登录的英雄联盟客户端。首次导入完成后，将自动打开你的回顾。' : 'Connect to your signed-in League client. Your recap will open automatically after the first import.'}</p>
+        <LeagueDirectory boot={boot} onBoot={onChange} />
+        {boot.activeAccountId && !boot.hasCachedMatches ? <p role="status">{boot.locale === 'zh-CN' ? '尚无可展示的对局。请确认当前账号，或重新连接以导入可用记录。' : 'No saved games yet. Check the signed-in account or reconnect to import available history.'}</p> : null}
+        <div className="actions">
+          <button type="button" onClick={() => void window.aram.openLeague()}>{text('openLeague')}</button>
+          <button type="button" onClick={() => void window.aram.useDemo().then((result) => { if (result.ok) onChange(result.data) })}>{text('tryDemo')}</button>
+          <select aria-label={text('locale')} value={boot.locale} onChange={event => void window.aram.updateSettings({locale: event.target.value, timeZone: boot.timeZone, offline: boot.offline, imageDownloads: boot.imageDownloads, leagueDir: boot.leagueDir}).then(result => { if (result.ok) onChange(result.data) })}><option value="zh-CN">简体中文</option><option value="en">English</option></select>
+        </div>
+      </>}
     </main>
   )
 }
@@ -244,7 +262,6 @@ function Settings(props: {
   const text = (key: MessageKey) => t(boot.locale, key)
   const [offline, setOffline] = useState(boot.offline)
   const [downloads, setDownloads] = useState(boot.imageDownloads)
-  const [leagueDir, setLeagueDir] = useState(boot.leagueDir ?? '')
   const [timeZone, setTimeZone] = useState(boot.timeZone)
   const save = (patch: Partial<{ locale: Locale; timeZone: string; offline: boolean; imageDownloads: 'auto' | 'never'; leagueDir: string }>) => {
     void window.aram.updateSettings({
@@ -252,7 +269,7 @@ function Settings(props: {
       timeZone: patch.timeZone ?? timeZone,
       offline: patch.offline ?? offline,
       imageDownloads: patch.imageDownloads ?? downloads,
-      leagueDir: (patch.leagueDir ?? leagueDir).trim() || null
+      leagueDir: patch.leagueDir ?? boot.leagueDir
     }).then((result) => { if (result.ok) onBoot(result.data) })
   }
   return (
@@ -265,8 +282,7 @@ function Settings(props: {
       <label><input type="checkbox" checked={offline} onChange={(event) => { setOffline(event.target.checked); save({ offline: event.target.checked }) }} /> {text('offline')}</label>
       <p className="note">{text('offlineHelp')}</p>
       <label>{text('imageDownloads')}<select value={downloads} onChange={(event) => { const imageDownloads = event.target.value === 'never' ? 'never' : 'auto'; setDownloads(imageDownloads); save({ imageDownloads }) }}><option value="auto">{text('imageAuto')}</option><option value="never">{text('imageNever')}</option></select></label>
-      <label>{text('leagueFolder')}<input data-testid="league-directory" value={leagueDir} placeholder="C:\Riot Games\League of Legends" onChange={event=>setLeagueDir(event.target.value)} onBlur={()=>save({leagueDir})} /></label>
-      <button type="button" onClick={()=>save({leagueDir})}>{boot.locale==='zh-CN'?'保存游戏目录':'Save League directory'}</button>
+      <LeagueDirectory boot={boot} onBoot={onBoot} />
       <p>{text('storagePath')}: {boot.storagePath} <button type="button" onClick={() => void window.aram.openLocation('data')}>{text('openFolder')}</button></p>
       <p>{text('logPath')}: {boot.logPath} <button type="button" onClick={() => void window.aram.openLocation('logs')}>{text('openFolder')}</button></p>
       <p><button type="button" onClick={() => boot.activeAccountId && void window.aram.syncStart({ accountId: boot.activeAccountId, kind: 'manual' })}>{text('refresh')}</button> <button type="button" onClick={() => boot.activeAccountId && void window.aram.syncStart({ accountId: boot.activeAccountId, kind: 'continue' })}>{text('continueSync')}</button> <button type="button" onClick={() => boot.activeAccountId && void window.aram.syncStart({ accountId: boot.activeAccountId, kind: 'rebuild' })}>{text('rebuild')}</button></p>

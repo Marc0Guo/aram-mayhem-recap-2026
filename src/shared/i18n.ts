@@ -2,7 +2,7 @@ import type { Locale } from './types'
 
 const zh = {
   appTitle: 'ARAM Mayhem 回顾',
-  welcomeTitle: '把极地大乱斗 Mayhem 留在这台电脑上',
+  welcomeTitle: '输入客户端路径来开始读取数据',
   welcomeBody: '比赛记录只写在本机的 SQLite 里。每次打开应用会尝试一次有限的增量同步，关闭后不会在后台继续收集。不需要 Riot API key，也不会上传到云端。',
   connect: '连接英雄联盟',
   tryDemo: '试用演示',
@@ -238,7 +238,7 @@ const zh = {
 
 const en: { [K in keyof typeof zh]: string } = {
   appTitle: 'ARAM Mayhem Wrapped',
-  welcomeTitle: 'Keep your ARAM Mayhem history on this PC',
+  welcomeTitle: 'Enter your League client path to start importing',
   welcomeBody: 'Matches are stored only in a local SQLite file. Opening the app attempts one bounded incremental sync, and closing it stops the work. No Riot API key and no cloud upload.',
   connect: 'Connect to League',
   tryDemo: 'Try demo',

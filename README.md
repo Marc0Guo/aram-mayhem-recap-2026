@@ -83,7 +83,7 @@ Demo mode uses synthetic games and separate storage. No League client required.
 
 ## Make it yours
 
-1. **Connect.** Log into League. If needed, enter the game directory containing `lockfile` in Settings, save, and refresh.
+1. **Connect.** Log into League. If needed, enter the game directory containing `lockfile` in Settings and choose Save and connect.
 2. **Explore.** Choose a date range and switch between English and 简体中文. Opening the app triggers a sync of available games.
 3. **Share.** Enable anonymous mode and choose **Poro** or another name. Teammate IDs become **Poro's friends**. PNG export preserves the current language, filters, and anonymous labels.
 

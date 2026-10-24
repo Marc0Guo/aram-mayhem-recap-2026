@@ -160,7 +160,7 @@ export class AppRuntime {
     db.setSetting('timeZone', input.timeZone)
     db.setSetting('offline', input.offline ? '1' : '0')
     db.setSetting('imageDownloads', input.imageDownloads)
-    if (input.leagueDir) db.setSetting('leagueDir', input.leagueDir)
+    db.setSetting('leagueDir', input.leagueDir?.trim() || '')
     if (input.offline) void this.cancelActive()
     if (this.view === 'real') this.refreshDiscovery()
     return this.bootstrap()
