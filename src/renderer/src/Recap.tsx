@@ -1,3 +1,4 @@
+import { isFinalEquipmentItem } from '@shared/final-items'
 import { friendName } from '@shared/privacy'
 import challengeCatalog from '@shared/challenge-catalog.json'
 import championNames from '@shared/champion-names.json'
@@ -80,7 +81,7 @@ export function Recap(props: {
   const rarityLabel = (id: string) => { const tier = rarityOf(id); return locale === 'zh-CN' ? ({ silver: '银色', gold: '金色', prismatic: '彩色', unknown: '未分级' })[tier] : ({ silver: 'Silver', gold: 'Gold', prismatic: 'Prismatic', unknown: 'Unclassified' })[tier] }
   const profile = dash?.profile
   const flashSlot = dash?.poster.flashSlot
-  const flashKey = flashSlot ? profile?.spellKeys[flashSlot - 1] : null
+  const flashKey = flashSlot && profile?.spellBindingVersion === 2 ? profile.spellKeys[flashSlot - 1] : null
   const text = (key: MessageKey) => t(locale, key)
   const classes = classShare(dash, icons)
   const playedWith = dash?.poster.playedWith ?? []
@@ -198,7 +199,7 @@ export function Recap(props: {
           </section><section className="loadout-group"><h2>{text('finalItems')}</h2>
           {dash?.items.available ? (
             <div className="rune-grid">
-              {dash.items.rows.filter((row) => row.itemId !== 2052).slice(0, 6).map((row) => {
+              {dash.items.rows.filter((row) => isFinalEquipmentItem(row.itemId)).slice(0, 6).map((row) => {
                 const tile = icons?.items[String(row.itemId)]
                 return (
                   <button className="rune" type="button" key={row.itemId} title={localName(itemNames, row.itemId, locale, shown(row.name, tile?.name))} onClick={() => props.onItem(row.itemId)}>
@@ -231,7 +232,7 @@ export function Recap(props: {
       <section className="bottom">
         <div className="panel-block"><h2 className="section-title">{text('topChallenges')}</h2><article className="panel" data-testid="top-challenges">
           <div className="challenge-grid">
-            {profile?.challenges?.slice(0,12).map(card => { const meta=(challengeCatalog as Record<string,{en:string;zh:string;enHint:string;zhHint:string}>)[card.id]; const tier=challengeIcons[`./assets/challenges/${card.id}-${card.level.toLowerCase()}.png`] ?? challengeIcons[`./assets/challenges/${card.id}.png`]; return <div className="challenge" key={card.id}>{tier ? <img className="challenge-token" src={tier} alt="" /> : null}<span><strong>{locale==='zh-CN'?meta?.zh??card.name:meta?.en??card.name}</strong><span>{(locale==='zh-CN'?meta?.zhHint??card.description:meta?.enHint??card.description).replace(/<[^>]*>/g,'')}</span><span className="challenge-count">{card.value.toLocaleString(locale)} {card.rank ? ` / ${locale==='zh-CN'?'排名':'Rank'} #${card.rank.toLocaleString(locale)}` : ''}</span><span className="challenge-rarity">{challengeLevel(card.level,locale)}{card.percentile == null ? '' : ` · ${locale==='zh-CN'?'前':'Top'} ${Number(card.percentile.toFixed(2))}%`}</span></span></div> })}
+            {profile?.challenges?.slice(0,12).map(card => { const meta=(challengeCatalog as Record<string,{en:string;zh:string;enHint:string;zhHint:string}>)[card.id]; const tier=challengeIcons[`./assets/challenges/${card.id}-${card.level.toLowerCase()}.png`]; return <div className="challenge" key={card.id}>{tier ? <img className="challenge-token" src={tier} alt="" /> : <span className="challenge-token challenge-token-placeholder" aria-hidden="true" />}<span><strong>{locale==='zh-CN'?meta?.zh??card.name:meta?.en??card.name}</strong><span>{(locale==='zh-CN'?meta?.zhHint??card.description:meta?.enHint??card.description).replace(/<[^>]*>/g,'')}</span><span className="challenge-count">{card.value.toLocaleString(locale)} {card.rank ? ` / ${locale==='zh-CN'?'排名':'Rank'} #${card.rank.toLocaleString(locale)}` : ''}</span><span className="challenge-rarity">{challengeLevel(card.level,locale)}{card.percentile == null ? '' : ` · ${locale==='zh-CN'?'前':'Top'} ${Number(card.percentile.toFixed(2))}%`}</span></span></div> })}
             {!profile?.challenges?.length ? dash?.poster.aramChallenges?.filter(card=>card.value!=='—').map(card => <div className="challenge" key={card.id}><img className="challenge-token" src={challengeIcons[`./assets/challenges/${card.id}.png`]} alt="" /><span><strong>{card.name}</strong><span>{card.hint}</span><span className="challenge-count">{card.value}</span></span></div>) : null}
           </div>
         </article></div>

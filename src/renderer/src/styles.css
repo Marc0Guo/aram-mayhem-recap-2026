@@ -460,3 +460,9 @@ body::before{content:'';position:fixed;inset:-24px;background:linear-gradient(#0
 .sync-controls progress { width: 100%; height: 14px; accent-color: #c8aa6e; }
 .sync-controls [role=alert] { color: #f4a6a6; }
 .sync-controls button:disabled { opacity: .5; cursor: not-allowed; }
+
+.challenge-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.challenge { min-width: 0; grid-template-columns: 46px minmax(0, 1fr); }
+.challenge > span:last-child { min-width: 0; grid-column: 2; overflow-wrap: anywhere; }
+.challenge-token-placeholder { display: block; border: 1px dashed #9aa9b566; border-radius: 50%; box-sizing: border-box; }
+@media (max-width: 650px) { .challenge-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

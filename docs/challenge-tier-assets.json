@@ -1,0 +1,1919 @@
+{
+  "patch": "16.21",
+  "metadataUrl": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/v1/challenges.json",
+  "assets": [
+    {
+      "id": "101101",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101101/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101101-bronze.png",
+      "bytes": 35361,
+      "width": 256,
+      "height": 256,
+      "sha256": "18e0e9ca47ffc3a834ebb33d5b03dd3a28b600ab2d6318f5d8a7fa2ca79accc2"
+    },
+    {
+      "id": "101101",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101101/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101101-challenger.png",
+      "bytes": 56156,
+      "width": 256,
+      "height": 256,
+      "sha256": "0f0eaef97bedbf02e73b8d36e4415129a8aa701b2b6a01e2173b7d2ae479d345"
+    },
+    {
+      "id": "101101",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101101/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101101-diamond.png",
+      "bytes": 42323,
+      "width": 256,
+      "height": 256,
+      "sha256": "7c0f1c1b62d3c9e65d11c6e920834ae78dd01f37a9c09b7b568957f99e04874b"
+    },
+    {
+      "id": "101101",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101101/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101101-gold.png",
+      "bytes": 41462,
+      "width": 256,
+      "height": 256,
+      "sha256": "b9a59382455284fb7b8cd8938d8b987b54a0e42b08f99ed86d0a81ac2894e584"
+    },
+    {
+      "id": "101101",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101101/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101101-grandmaster.png",
+      "bytes": 55194,
+      "width": 256,
+      "height": 256,
+      "sha256": "a888079e69f7fc30fc67d42fecf816cc1a25981cebd28e5ab7d749b02b5c5b57"
+    },
+    {
+      "id": "101101",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101101/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101101-iron.png",
+      "bytes": 37575,
+      "width": 256,
+      "height": 256,
+      "sha256": "a22c1339b66a54517aab807d106f59ae451b6cb834db2523c0ee09ece46f83c9"
+    },
+    {
+      "id": "101101",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101101/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101101-master.png",
+      "bytes": 52510,
+      "width": 256,
+      "height": 256,
+      "sha256": "3045d52254201a2169505508a060219d20fa64788e814809bbba12f4f49db9e1"
+    },
+    {
+      "id": "101101",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101101/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101101-platinum.png",
+      "bytes": 41604,
+      "width": 256,
+      "height": 256,
+      "sha256": "662cbe7ff3b8b5e4fcd7965506099023d7179df6acd4f6d9632150e080e23dcd"
+    },
+    {
+      "id": "101101",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101101/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101101-silver.png",
+      "bytes": 38507,
+      "width": 256,
+      "height": 256,
+      "sha256": "0f66970e78fd2c93dc722e1f092443e7255c8746fdf4d5bc2c126d60961aee15"
+    },
+    {
+      "id": "101102",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101102/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101102-bronze.png",
+      "bytes": 32647,
+      "width": 256,
+      "height": 256,
+      "sha256": "64c3a615f7979013db21853d6b702201f17c040273666ce060aaa9d2f6a8a6e9"
+    },
+    {
+      "id": "101102",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101102/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101102-challenger.png",
+      "bytes": 52743,
+      "width": 256,
+      "height": 256,
+      "sha256": "cef8e16bb58b38ddc009c07350333fee5984ea2d15edbe67bb64964a8ed7dcd9"
+    },
+    {
+      "id": "101102",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101102/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101102-diamond.png",
+      "bytes": 38467,
+      "width": 256,
+      "height": 256,
+      "sha256": "08276a4c1cd9833a39f8dc9069c65450c86e57316fd8332a8713f8e48d8ea57f"
+    },
+    {
+      "id": "101102",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101102/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101102-gold.png",
+      "bytes": 37874,
+      "width": 256,
+      "height": 256,
+      "sha256": "494a19505a8d9eb1daefca91da2f18a7930d499698f4e384b100176d574dcc4e"
+    },
+    {
+      "id": "101102",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101102/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101102-grandmaster.png",
+      "bytes": 52279,
+      "width": 256,
+      "height": 256,
+      "sha256": "f9620e822c6ac83dfe128d1d7c7c757527cea14c2c7d7295ba2179c9e2fa7961"
+    },
+    {
+      "id": "101102",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101102/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101102-iron.png",
+      "bytes": 35892,
+      "width": 256,
+      "height": 256,
+      "sha256": "91c73f5c281221ddc73bbdffa2c92c550923fe70a8191751388eec2a6f4a6725"
+    },
+    {
+      "id": "101102",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101102/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101102-master.png",
+      "bytes": 48935,
+      "width": 256,
+      "height": 256,
+      "sha256": "91af4c7ddf508a327d07d527079d9340649c6ef4243a8a6d99082900d396a1ce"
+    },
+    {
+      "id": "101102",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101102/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101102-platinum.png",
+      "bytes": 38253,
+      "width": 256,
+      "height": 256,
+      "sha256": "9d95bb80b90f0a12ca706d184a6aa6f0633f13ce9ae8a44dc26833a872c554ef"
+    },
+    {
+      "id": "101102",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101102/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101102-silver.png",
+      "bytes": 35366,
+      "width": 256,
+      "height": 256,
+      "sha256": "a16375595ae259ee03c75a24b17a347e5871fa8b8db5811e4736fa6c557d2241"
+    },
+    {
+      "id": "101103",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101103/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101103-bronze.png",
+      "bytes": 37995,
+      "width": 256,
+      "height": 256,
+      "sha256": "ec79da66412f7c8428b26ed884f5647a390aa742fa67404bcc849a039f76a619"
+    },
+    {
+      "id": "101103",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101103/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101103-challenger.png",
+      "bytes": 60149,
+      "width": 256,
+      "height": 256,
+      "sha256": "b4a92018c7a52084edbbaae1de5a199e8f4bbd9bbfed5c52100f7669673c4712"
+    },
+    {
+      "id": "101103",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101103/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101103-diamond.png",
+      "bytes": 45068,
+      "width": 256,
+      "height": 256,
+      "sha256": "77bb6dda99f9f2c04cbd10581eb1d26a1cbb22f6ff3419d22427cb8df766c72a"
+    },
+    {
+      "id": "101103",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101103/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101103-gold.png",
+      "bytes": 43489,
+      "width": 256,
+      "height": 256,
+      "sha256": "96642f5c5016234e806d4b9db37e008ca6f03e56eedeb1fa648eeccf49fd8a95"
+    },
+    {
+      "id": "101103",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101103/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101103-grandmaster.png",
+      "bytes": 59109,
+      "width": 256,
+      "height": 256,
+      "sha256": "8262534023c6654f82656a7f25d3af41be70ab2b0b5bc696b96496809936f1a7"
+    },
+    {
+      "id": "101103",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101103/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101103-iron.png",
+      "bytes": 38322,
+      "width": 256,
+      "height": 256,
+      "sha256": "f3e5514f92108db377c316aa3ce165bb78f28d6483e8afcc39ae1b88d8895e24"
+    },
+    {
+      "id": "101103",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101103/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101103-master.png",
+      "bytes": 56177,
+      "width": 256,
+      "height": 256,
+      "sha256": "858aeda9163ce7886a690b534bac3c59d8621ed9ca02f18673e66492a8e5a1f2"
+    },
+    {
+      "id": "101103",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101103/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101103-platinum.png",
+      "bytes": 44939,
+      "width": 256,
+      "height": 256,
+      "sha256": "85ba2187d9f5676b972f54617ecce72625d64df2c9a2ea896ee8d4ff89ebe7c1"
+    },
+    {
+      "id": "101103",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101103/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101103-silver.png",
+      "bytes": 41854,
+      "width": 256,
+      "height": 256,
+      "sha256": "3bf3529fac65d0deef3f25e516fcb845a9c2c72f43c215732fc9b0f7b9b906a5"
+    },
+    {
+      "id": "101104",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101104/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101104-bronze.png",
+      "bytes": 32000,
+      "width": 256,
+      "height": 256,
+      "sha256": "bc2cc026267b7389d1b827fec617eec2b16285a53b4bc85e3bad8552f4a4da41"
+    },
+    {
+      "id": "101104",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101104/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101104-challenger.png",
+      "bytes": 53049,
+      "width": 256,
+      "height": 256,
+      "sha256": "083b90bc2e8ae41db1ba8d22a00a8973e2871f3c73ebbca5eba8123a410c6726"
+    },
+    {
+      "id": "101104",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101104/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101104-diamond.png",
+      "bytes": 38309,
+      "width": 256,
+      "height": 256,
+      "sha256": "a7b5eb4b5e028da17023a603113ec375193abf133677b0df4e39f2a518b5eee0"
+    },
+    {
+      "id": "101104",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101104/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101104-gold.png",
+      "bytes": 37052,
+      "width": 256,
+      "height": 256,
+      "sha256": "96ecc0320a762d6a654f110010ff61d47700262b64b1e458bc3c1c9f8cdaa089"
+    },
+    {
+      "id": "101104",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101104/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101104-grandmaster.png",
+      "bytes": 51675,
+      "width": 256,
+      "height": 256,
+      "sha256": "321491e52f80f1610ddb1c0ee58c027f366ba5da74959a9cd5538a54bb955977"
+    },
+    {
+      "id": "101104",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101104/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101104-iron.png",
+      "bytes": 35585,
+      "width": 256,
+      "height": 256,
+      "sha256": "9b275cac03477e0e90719e0cb2f887accdcf63d90f5196c2e9ebfcae5b84ce8a"
+    },
+    {
+      "id": "101104",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101104/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101104-master.png",
+      "bytes": 49164,
+      "width": 256,
+      "height": 256,
+      "sha256": "0e25edd5ce9eb7630a704610964379fae6b88b3c9624d10b8d92dcc26532dff4"
+    },
+    {
+      "id": "101104",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101104/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101104-platinum.png",
+      "bytes": 37391,
+      "width": 256,
+      "height": 256,
+      "sha256": "907a0b3d3bdaec926161fabfd3643edbd5c436ba6d0693d4a692bc1e6d52a018"
+    },
+    {
+      "id": "101104",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101104/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101104-silver.png",
+      "bytes": 35016,
+      "width": 256,
+      "height": 256,
+      "sha256": "5be6c7ab2ef6f32a72139fdaf4089984b899e9dccfbade036dc2c5364341c5e1"
+    },
+    {
+      "id": "101105",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101105/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101105-bronze.png",
+      "bytes": 36963,
+      "width": 256,
+      "height": 256,
+      "sha256": "e40027d07bdf3116b5d83a3caef25bbb5ac4dd8b83ad30a53e9ef86db7d91440"
+    },
+    {
+      "id": "101105",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101105/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101105-challenger.png",
+      "bytes": 58941,
+      "width": 256,
+      "height": 256,
+      "sha256": "c131c0b0ac2086e05689420b21786e0003a6b6e44c4118e4ef596901aebfc20b"
+    },
+    {
+      "id": "101105",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101105/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101105-diamond.png",
+      "bytes": 43897,
+      "width": 256,
+      "height": 256,
+      "sha256": "d9a6066f049f6897228860edcda5c98f9cded062c828acd6b9906a195d907161"
+    },
+    {
+      "id": "101105",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101105/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101105-gold.png",
+      "bytes": 42118,
+      "width": 256,
+      "height": 256,
+      "sha256": "8005d2edfd03342d0387c87b216ec258ec8b74c6a3fc094330fd461c07d7cc1d"
+    },
+    {
+      "id": "101105",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101105/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101105-grandmaster.png",
+      "bytes": 58454,
+      "width": 256,
+      "height": 256,
+      "sha256": "a4880e309b0c17888e6a89815c949af6a9f2d0a29cb2db59430418820b660851"
+    },
+    {
+      "id": "101105",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101105/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101105-iron.png",
+      "bytes": 38609,
+      "width": 256,
+      "height": 256,
+      "sha256": "7da6f9c5115989c8bd3430c70ed239ab3c8b7db83f7316ac7406869e2d1a9102"
+    },
+    {
+      "id": "101105",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101105/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101105-master.png",
+      "bytes": 54562,
+      "width": 256,
+      "height": 256,
+      "sha256": "323c546df7d3b7ad8841cdea7bc6355fff12b3db1872b949815495ce0648d00c"
+    },
+    {
+      "id": "101105",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101105/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101105-platinum.png",
+      "bytes": 43121,
+      "width": 256,
+      "height": 256,
+      "sha256": "8af511d5765dfe264bb5a7d070673ed25c73b7479a99610f5616fc01f0c9471c"
+    },
+    {
+      "id": "101105",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101105/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101105-silver.png",
+      "bytes": 40459,
+      "width": 256,
+      "height": 256,
+      "sha256": "ef7af2ad980c1a1f6d2983e114f80671d8249e1825e5c6eca45e25bccc9fc7fe"
+    },
+    {
+      "id": "101106",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101106/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101106-bronze.png",
+      "bytes": 33840,
+      "width": 256,
+      "height": 256,
+      "sha256": "4125626f9f9c89c3923566af278ce4dad4f4f0b46f3de214762ce45137d34a2f"
+    },
+    {
+      "id": "101106",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101106/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101106-challenger.png",
+      "bytes": 55182,
+      "width": 256,
+      "height": 256,
+      "sha256": "a718ca8d40c8b83e6e4d5615d00f39a148e4a19842a97161bd0f327e674f8d8a"
+    },
+    {
+      "id": "101106",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101106/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101106-diamond.png",
+      "bytes": 39839,
+      "width": 256,
+      "height": 256,
+      "sha256": "ce91052059774b0da75b10cb922309adad13c44106dd36ea1d9f9f06264f2d23"
+    },
+    {
+      "id": "101106",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101106/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101106-gold.png",
+      "bytes": 38696,
+      "width": 256,
+      "height": 256,
+      "sha256": "8e0e9392f56f3441ddc3614e47ed446898fe90b89fe1bf864faf688bb1883a9f"
+    },
+    {
+      "id": "101106",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101106/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101106-grandmaster.png",
+      "bytes": 54848,
+      "width": 256,
+      "height": 256,
+      "sha256": "14a83e796d12f598df74c09c9d4a8cbe0e9f6faaf9bdd27b93679e6f11071d89"
+    },
+    {
+      "id": "101106",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101106/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101106-iron.png",
+      "bytes": 36373,
+      "width": 256,
+      "height": 256,
+      "sha256": "3613f82c57b3531596cb556004c695ea43e6c9ae1f2dd18e9960abf9931446de"
+    },
+    {
+      "id": "101106",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101106/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101106-master.png",
+      "bytes": 50335,
+      "width": 256,
+      "height": 256,
+      "sha256": "713b393600da31a4a868fa57d0e5a503d6cd9861ec498e7850bb1a01a66f1d2e"
+    },
+    {
+      "id": "101106",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101106/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101106-platinum.png",
+      "bytes": 39629,
+      "width": 256,
+      "height": 256,
+      "sha256": "432e5482dc5b780d5cf9602bd68dcebb0b59559861dee5415db4ba489c03f5e3"
+    },
+    {
+      "id": "101106",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101106/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101106-silver.png",
+      "bytes": 36818,
+      "width": 256,
+      "height": 256,
+      "sha256": "edbffb61891b4f85e0c6334354aafa883487dc0c27a45bd6686a24a482cd470e"
+    },
+    {
+      "id": "101107",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101107/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101107-bronze.png",
+      "bytes": 33183,
+      "width": 256,
+      "height": 256,
+      "sha256": "496a7414a37cfde0afec3f4f6123b95c2c1be286517c6b6a619072e837b18d22"
+    },
+    {
+      "id": "101107",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101107/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101107-challenger.png",
+      "bytes": 54099,
+      "width": 256,
+      "height": 256,
+      "sha256": "5835ae066bd5f3da923c9fe5a8e8a26761e7388ae6945c1bf745bbcd22eeadcb"
+    },
+    {
+      "id": "101107",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101107/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101107-diamond.png",
+      "bytes": 39192,
+      "width": 256,
+      "height": 256,
+      "sha256": "aa450e39e326469abefc43dc0540fd2208761b5f0312e3c5110c7a0ea8e2e198"
+    },
+    {
+      "id": "101107",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101107/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101107-gold.png",
+      "bytes": 38262,
+      "width": 256,
+      "height": 256,
+      "sha256": "67106231aa5f69c5bf5b2dd842b33b254e7dabf843c674620bf8701f69fa89ed"
+    },
+    {
+      "id": "101107",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101107/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101107-grandmaster.png",
+      "bytes": 53530,
+      "width": 256,
+      "height": 256,
+      "sha256": "c31c23a9a7d3cc01f5797d582381259b2e4dd56acc0ad7db4c3d62310ae0517c"
+    },
+    {
+      "id": "101107",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101107/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101107-iron.png",
+      "bytes": 35541,
+      "width": 256,
+      "height": 256,
+      "sha256": "af0ce8d806f35cc4fa8c5b6de8d8ead8e6a58c3c5431ad8bb9f1b45c7f524b9f"
+    },
+    {
+      "id": "101107",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101107/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101107-master.png",
+      "bytes": 50254,
+      "width": 256,
+      "height": 256,
+      "sha256": "59b03e0349cb8ae5a1402a42de94b71b6053305378626d5f465f54455534a70b"
+    },
+    {
+      "id": "101107",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101107/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101107-platinum.png",
+      "bytes": 39025,
+      "width": 256,
+      "height": 256,
+      "sha256": "c7f0e9ab6be33a3d517633e65769650c94d691fe4aeaf673edd91a449429014f"
+    },
+    {
+      "id": "101107",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101107/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101107-silver.png",
+      "bytes": 35906,
+      "width": 256,
+      "height": 256,
+      "sha256": "f5be5e865be8405a99c4fed1a7a9f619bcb0bf03cfbfdd307567b91e7bf352f9"
+    },
+    {
+      "id": "101108",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101108/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101108-bronze.png",
+      "bytes": 33842,
+      "width": 256,
+      "height": 256,
+      "sha256": "da9c89bd0b2b5281fb15e7edf50fcb371e3d346c75439acc5c52c625360620e9"
+    },
+    {
+      "id": "101108",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101108/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101108-challenger.png",
+      "bytes": 54468,
+      "width": 256,
+      "height": 256,
+      "sha256": "beba2d296f385adb8b69730f9472b79215496074201807c28d368b24299be096"
+    },
+    {
+      "id": "101108",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101108/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101108-diamond.png",
+      "bytes": 40370,
+      "width": 256,
+      "height": 256,
+      "sha256": "c50b87db590e670b8bd517dc479421d4e1bdc1826d43c78d1be3e7ba09783b17"
+    },
+    {
+      "id": "101108",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101108/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101108-gold.png",
+      "bytes": 39142,
+      "width": 256,
+      "height": 256,
+      "sha256": "abcd75a73eb6b9e20fcc1cb61b72e733b78f1599a59c93d10aaa007d0524507e"
+    },
+    {
+      "id": "101108",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101108/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101108-grandmaster.png",
+      "bytes": 54761,
+      "width": 256,
+      "height": 256,
+      "sha256": "4504ef56664be4008203234bbe981d38f277a7d9437dee4a194b7be72263d03d"
+    },
+    {
+      "id": "101108",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101108/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101108-iron.png",
+      "bytes": 36272,
+      "width": 256,
+      "height": 256,
+      "sha256": "2cbecd3f8e6be824ed0dcf46aac797542f0b1a0b6cb0fb39800d646199cd358f"
+    },
+    {
+      "id": "101108",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101108/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101108-master.png",
+      "bytes": 51603,
+      "width": 256,
+      "height": 256,
+      "sha256": "dfe0a75a515599cda1060040b98b6255b989909cbaf1c022194b671f5437d1de"
+    },
+    {
+      "id": "101108",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101108/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101108-platinum.png",
+      "bytes": 39814,
+      "width": 256,
+      "height": 256,
+      "sha256": "44cae44ab86f9e8b8d22cdb56ba5e6371199f4a4803aafcb3212b52c7a4fe9ce"
+    },
+    {
+      "id": "101108",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101108/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101108-silver.png",
+      "bytes": 37039,
+      "width": 256,
+      "height": 256,
+      "sha256": "d50c8ef88d64871b00c0f52ae6e229bb423b19cc676b2dd331947b9ded7817bf"
+    },
+    {
+      "id": "101201",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101201/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101201-bronze.png",
+      "bytes": 37124,
+      "width": 256,
+      "height": 256,
+      "sha256": "e690588b5a2635be8cc7d5da2e78800a98b80bf2fdb76ae4642738010651cefe"
+    },
+    {
+      "id": "101201",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101201/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101201-challenger.png",
+      "bytes": 57925,
+      "width": 256,
+      "height": 256,
+      "sha256": "be7788c36c7c2ae7484658a624c6f9b201db745d6a58d78b4baae20295acf80b"
+    },
+    {
+      "id": "101201",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101201/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101201-diamond.png",
+      "bytes": 43496,
+      "width": 256,
+      "height": 256,
+      "sha256": "9c6b5e4481a10b739329aeb99e414008edfc9e85704a5864082441298693c886"
+    },
+    {
+      "id": "101201",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101201/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101201-gold.png",
+      "bytes": 42692,
+      "width": 256,
+      "height": 256,
+      "sha256": "9a91bcf74764812f07397e1047829a8e83414490c7c145c7d9a30228474c35b4"
+    },
+    {
+      "id": "101201",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101201/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101201-grandmaster.png",
+      "bytes": 57831,
+      "width": 256,
+      "height": 256,
+      "sha256": "f1b108d496af5fff763bd663cfbbd661524a926b6da68cfd3ccd865301e544b1"
+    },
+    {
+      "id": "101201",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101201/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101201-iron.png",
+      "bytes": 37052,
+      "width": 256,
+      "height": 256,
+      "sha256": "da01b25ea45a38b64ce054332cc3995718939d7fd306709fff207bbdb2eccd0b"
+    },
+    {
+      "id": "101201",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101201/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101201-master.png",
+      "bytes": 53573,
+      "width": 256,
+      "height": 256,
+      "sha256": "5f84296420916781cb7ee650d79fda73c5bb690b06c6dbd8da4b8e9c475ec9a2"
+    },
+    {
+      "id": "101201",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101201/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101201-platinum.png",
+      "bytes": 42633,
+      "width": 256,
+      "height": 256,
+      "sha256": "d4b4eb1980c6b7ac9ecc0d66363862a7fe42a3cc79c9069e30a07eacbff41cd3"
+    },
+    {
+      "id": "101201",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101201/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101201-silver.png",
+      "bytes": 40741,
+      "width": 256,
+      "height": 256,
+      "sha256": "b27207ab4649817fde70e5604607aa35183a713c2aeaf66269392a1e042f8e65"
+    },
+    {
+      "id": "101202",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101202/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101202-bronze.png",
+      "bytes": 35169,
+      "width": 256,
+      "height": 256,
+      "sha256": "4673f5c3b53114884899b29e4cadc67934c067f5537f2fb01daf6bfca42437f5"
+    },
+    {
+      "id": "101202",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101202/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101202-challenger.png",
+      "bytes": 56207,
+      "width": 256,
+      "height": 256,
+      "sha256": "096677e8252b9f95db742b7d66052fb3c0e023cf5030315db7f08e206c7fc510"
+    },
+    {
+      "id": "101202",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101202/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101202-diamond.png",
+      "bytes": 42405,
+      "width": 256,
+      "height": 256,
+      "sha256": "cbd946d26c31216793e8c7838c6d982c4483606cb2e08555e2f3906c2c6ffa94"
+    },
+    {
+      "id": "101202",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101202/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101202-gold.png",
+      "bytes": 40986,
+      "width": 256,
+      "height": 256,
+      "sha256": "cec46648de87088e092f2c6aa9e252e923097032e1e997cf733b060e34e3f5be"
+    },
+    {
+      "id": "101202",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101202/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101202-grandmaster.png",
+      "bytes": 56245,
+      "width": 256,
+      "height": 256,
+      "sha256": "5ba5411fb5bba2ef0f2e11c261fbda24aefad9db4a24593d5e68a4d5180f7ead"
+    },
+    {
+      "id": "101202",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101202/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101202-iron.png",
+      "bytes": 37519,
+      "width": 256,
+      "height": 256,
+      "sha256": "25c018105735e50053a34cecbfb130dd9d9c3db12280beb6424595eb047da4cb"
+    },
+    {
+      "id": "101202",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101202/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101202-master.png",
+      "bytes": 52358,
+      "width": 256,
+      "height": 256,
+      "sha256": "4f5ebba9011886ac61c0aae2ae47e5823279c60289588144eec2f94b7e54a0aa"
+    },
+    {
+      "id": "101202",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101202/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101202-platinum.png",
+      "bytes": 41192,
+      "width": 256,
+      "height": 256,
+      "sha256": "d1b78a51d130b5bb51e6899261eeefa5086a85eeab4c25eae443f22d5eb39dc8"
+    },
+    {
+      "id": "101202",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101202/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101202-silver.png",
+      "bytes": 38116,
+      "width": 256,
+      "height": 256,
+      "sha256": "108aaf7d793c5d7f8f79334eb141696f79247052ee68e03986d14d449c6590a9"
+    },
+    {
+      "id": "101203",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101203/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101203-bronze.png",
+      "bytes": 32832,
+      "width": 256,
+      "height": 256,
+      "sha256": "d70eebbfcaf1eaadcb0a03262085523f4883efc18873a955157fc149df5dea2c"
+    },
+    {
+      "id": "101203",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101203/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101203-challenger.png",
+      "bytes": 52737,
+      "width": 256,
+      "height": 256,
+      "sha256": "0aaf8bdeb86c1c3eb0e935461bf119c34b96e3c2002af46f79507864cb03b5fd"
+    },
+    {
+      "id": "101203",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101203/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101203-diamond.png",
+      "bytes": 39208,
+      "width": 256,
+      "height": 256,
+      "sha256": "f6034a9d9e5d8e35a27b47ae4d065b3f9cc481c2627195607afbf84b9966273c"
+    },
+    {
+      "id": "101203",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101203/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101203-gold.png",
+      "bytes": 38082,
+      "width": 256,
+      "height": 256,
+      "sha256": "a56d8e10e6ee17b390429ad6a4e3526342e34bd8166b39f47a59daf13d4ba5d3"
+    },
+    {
+      "id": "101203",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101203/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101203-grandmaster.png",
+      "bytes": 53054,
+      "width": 256,
+      "height": 256,
+      "sha256": "161c77fa4eb5d1dedff20b974131864d06e866f0a1f47aee4b6e77e8d0a4f6be"
+    },
+    {
+      "id": "101203",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101203/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101203-iron.png",
+      "bytes": 35713,
+      "width": 256,
+      "height": 256,
+      "sha256": "7acf45a80641a3f4060e2f2acab131595b4449365977ffbf3c7529f8e1e0a440"
+    },
+    {
+      "id": "101203",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101203/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101203-master.png",
+      "bytes": 49520,
+      "width": 256,
+      "height": 256,
+      "sha256": "005835149a4b3e6b47a8e058909e8756868672548c50994f6896dda9f8e915df"
+    },
+    {
+      "id": "101203",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101203/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101203-platinum.png",
+      "bytes": 38389,
+      "width": 256,
+      "height": 256,
+      "sha256": "f59f811afcf2c3e43db104640ff5cf01e6e433e449171b4f1569cc56c18c9e2d"
+    },
+    {
+      "id": "101203",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101203/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101203-silver.png",
+      "bytes": 35118,
+      "width": 256,
+      "height": 256,
+      "sha256": "8e3297d137127e978950083f51b278645e2d9b8b78185e7c332837b9c454db57"
+    },
+    {
+      "id": "101204",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101204/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101204-bronze.png",
+      "bytes": 33452,
+      "width": 256,
+      "height": 256,
+      "sha256": "8c066790d863acae4a82c4e41f1ce6af1477c5387ca90238a52031d4cfc64b8d"
+    },
+    {
+      "id": "101204",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101204/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101204-challenger.png",
+      "bytes": 55389,
+      "width": 256,
+      "height": 256,
+      "sha256": "6bd7cca321a2303b9f1bc4bb3d5f864e822a1ab7a9ad8f01eaf4c10829743a04"
+    },
+    {
+      "id": "101204",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101204/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101204-diamond.png",
+      "bytes": 40001,
+      "width": 256,
+      "height": 256,
+      "sha256": "4a0b9081f2118fa19c3eac45d4a6ec61a927d9390d46382734318243001779b8"
+    },
+    {
+      "id": "101204",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101204/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101204-gold.png",
+      "bytes": 38598,
+      "width": 256,
+      "height": 256,
+      "sha256": "90e0f51e38522f3a4f4a6a0ac0308b3cbce8f8ae106c6ee6bf06b1db56fde2ce"
+    },
+    {
+      "id": "101204",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101204/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101204-grandmaster.png",
+      "bytes": 52933,
+      "width": 256,
+      "height": 256,
+      "sha256": "baf64ec9bad347e8e29a48eed3c14c25ed696ae356da5f1ebeb022e89b782a71"
+    },
+    {
+      "id": "101204",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101204/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101204-iron.png",
+      "bytes": 36014,
+      "width": 256,
+      "height": 256,
+      "sha256": "774cdd960eb7fd0ad2bb09a61ce473cab5012a9dfc5e0f429e291294eff8ae76"
+    },
+    {
+      "id": "101204",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101204/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101204-master.png",
+      "bytes": 50458,
+      "width": 256,
+      "height": 256,
+      "sha256": "d6b8c1a58a47c1499134d63e099c00e0320a9f749ff5fa61076d33c8b82cc461"
+    },
+    {
+      "id": "101204",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101204/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101204-platinum.png",
+      "bytes": 39577,
+      "width": 256,
+      "height": 256,
+      "sha256": "91bc176ad8032686e8e89c7f9eb415ef3921c62c757e9391a68926c5dbbcc80c"
+    },
+    {
+      "id": "101204",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101204/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101204-silver.png",
+      "bytes": 36459,
+      "width": 256,
+      "height": 256,
+      "sha256": "371dbab3d0af4e61d8177a91bc390db08d719cec660458872411bc9346de6163"
+    },
+    {
+      "id": "101205",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101205/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101205-bronze.png",
+      "bytes": 32509,
+      "width": 256,
+      "height": 256,
+      "sha256": "e93ff9fd2599477b35d8b1172882c4ca8b9b36ae9fea442b7a2b6a554e46d4f4"
+    },
+    {
+      "id": "101205",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101205/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101205-challenger.png",
+      "bytes": 54078,
+      "width": 256,
+      "height": 256,
+      "sha256": "71023d3291dd5e551940f74b2edbf7ff071c52e2590c55637021260ea2abcd16"
+    },
+    {
+      "id": "101205",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101205/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101205-diamond.png",
+      "bytes": 39368,
+      "width": 256,
+      "height": 256,
+      "sha256": "53bdf8e53df4c1c643b805215f03ce7e6f7a4bc249530e39d756393fc62c2ed4"
+    },
+    {
+      "id": "101205",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101205/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101205-gold.png",
+      "bytes": 38104,
+      "width": 256,
+      "height": 256,
+      "sha256": "b2c8aff83c4659bc15adb67b55a3ba02e87231d5b180fccfefa56a266121c266"
+    },
+    {
+      "id": "101205",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101205/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101205-grandmaster.png",
+      "bytes": 53056,
+      "width": 256,
+      "height": 256,
+      "sha256": "ae1dc1920db5c6e2523ee858dfc1dcecaea981579ff33742c46353fee26fbaac"
+    },
+    {
+      "id": "101205",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101205/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101205-iron.png",
+      "bytes": 36455,
+      "width": 256,
+      "height": 256,
+      "sha256": "e17042f925856e4e30897744cb2e2a0876c72f79346a776f3f87755e087f34b5"
+    },
+    {
+      "id": "101205",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101205/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101205-master.png",
+      "bytes": 50697,
+      "width": 256,
+      "height": 256,
+      "sha256": "0289acfacef3252754a86390106865d143063637513038d9c84b005680d441a3"
+    },
+    {
+      "id": "101205",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101205/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101205-platinum.png",
+      "bytes": 38737,
+      "width": 256,
+      "height": 256,
+      "sha256": "865bb7438b7cd595696f5375b890d3ed5b5c75d625673f045dc013c0bddf28c9"
+    },
+    {
+      "id": "101205",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101205/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101205-silver.png",
+      "bytes": 34940,
+      "width": 256,
+      "height": 256,
+      "sha256": "694a10c88a13c23cf1ca5f3476285e77c66a51eb66c7e7b497763e1d45c313e4"
+    },
+    {
+      "id": "101206",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101206/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101206-bronze.png",
+      "bytes": 34176,
+      "width": 256,
+      "height": 256,
+      "sha256": "4d7dfa3782bca1c7d61a14701f257a4710dd5604ffae99fbf02c24e756cf23e8"
+    },
+    {
+      "id": "101206",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101206/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101206-challenger.png",
+      "bytes": 54582,
+      "width": 256,
+      "height": 256,
+      "sha256": "d339c6eada4e6bd841134705e70420725eb31d4274a0e70a701bd01d60aa7ea3"
+    },
+    {
+      "id": "101206",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101206/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101206-diamond.png",
+      "bytes": 40684,
+      "width": 256,
+      "height": 256,
+      "sha256": "ba0f8df9905d5547c77e9b8edc2cf1114567aafb2bbceb9db87652509504e1cd"
+    },
+    {
+      "id": "101206",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101206/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101206-gold.png",
+      "bytes": 39099,
+      "width": 256,
+      "height": 256,
+      "sha256": "7970778dbfcf690609f79e18a80d89ee3c9c0d72b0501bb1886ae77281732a31"
+    },
+    {
+      "id": "101206",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101206/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101206-grandmaster.png",
+      "bytes": 54578,
+      "width": 256,
+      "height": 256,
+      "sha256": "1beb6857181fb67cb19e82bd44cc93bb4a01049e3351fe281383065ee4f076a3"
+    },
+    {
+      "id": "101206",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101206/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101206-iron.png",
+      "bytes": 37018,
+      "width": 256,
+      "height": 256,
+      "sha256": "2bf288067c51b29ff8ba15fdc874ac0f1c4092ecd1028b6b1eeb7409f48352c1"
+    },
+    {
+      "id": "101206",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101206/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101206-master.png",
+      "bytes": 51886,
+      "width": 256,
+      "height": 256,
+      "sha256": "c3fd8f04c092cf14144c72b9855ea74dc16393cd36a3d876d4215d5d770dbeb8"
+    },
+    {
+      "id": "101206",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101206/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101206-platinum.png",
+      "bytes": 40289,
+      "width": 256,
+      "height": 256,
+      "sha256": "9455bf59ec86cbd27d6a062d752269ce94070420da986fc7d562883bfa4e4a8c"
+    },
+    {
+      "id": "101206",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101206/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101206-silver.png",
+      "bytes": 37182,
+      "width": 256,
+      "height": 256,
+      "sha256": "b65326857a9e5bb2b23a8600aa13fe10a6f8475497065d63ebc5bc6b3d66a4d9"
+    },
+    {
+      "id": "101301",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101301/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101301-bronze.png",
+      "bytes": 37443,
+      "width": 256,
+      "height": 256,
+      "sha256": "e465b716bab0d21e3f9f85bb91e9e6a0e11f9b23480e842a7f00dcf434dd455c"
+    },
+    {
+      "id": "101301",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101301/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101301-challenger.png",
+      "bytes": 58624,
+      "width": 256,
+      "height": 256,
+      "sha256": "78a09579ac6d82ddeeeef447b28d6c032ea72ff71ed3fd6253acdb09ca598085"
+    },
+    {
+      "id": "101301",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101301/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101301-diamond.png",
+      "bytes": 43556,
+      "width": 256,
+      "height": 256,
+      "sha256": "072262c1080ead84863e55d6aae55e7076c59a57c5c43c7e58884eb54729a627"
+    },
+    {
+      "id": "101301",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101301/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101301-gold.png",
+      "bytes": 41755,
+      "width": 256,
+      "height": 256,
+      "sha256": "2cc2beadfafcc86d61481cd918188fec7db3eb53d92eab4288ef7a4053669413"
+    },
+    {
+      "id": "101301",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101301/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101301-grandmaster.png",
+      "bytes": 58698,
+      "width": 256,
+      "height": 256,
+      "sha256": "4a76d34dc40afd479b986df711cb2c9a0de8d5b755079b3e170216621c378a81"
+    },
+    {
+      "id": "101301",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101301/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101301-iron.png",
+      "bytes": 38667,
+      "width": 256,
+      "height": 256,
+      "sha256": "6ab4e1cfbc38492d81817d37f3090a54b71c49ed75fdbed37093912338f13fbb"
+    },
+    {
+      "id": "101301",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101301/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101301-master.png",
+      "bytes": 54955,
+      "width": 256,
+      "height": 256,
+      "sha256": "fceeb212726a97bb8a23444610558faa211a6590976b5c697c68ce7e2eb80e4d"
+    },
+    {
+      "id": "101301",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101301/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101301-platinum.png",
+      "bytes": 42304,
+      "width": 256,
+      "height": 256,
+      "sha256": "3fc880285e76d05003c57ea8d6a7d63af1c6d773c0c9a39493fe17cb18e01dc0"
+    },
+    {
+      "id": "101301",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101301/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101301-silver.png",
+      "bytes": 40267,
+      "width": 256,
+      "height": 256,
+      "sha256": "df2a01525e9dbccb296215fcc2733fa3d80bd34878dd3ee54145ae3bd7c19b7d"
+    },
+    {
+      "id": "101302",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101302/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101302-bronze.png",
+      "bytes": 31787,
+      "width": 256,
+      "height": 256,
+      "sha256": "6f54d5ed98e374d6749f3b4cd959f4c3c85289439919b8f486c020f22b6c8986"
+    },
+    {
+      "id": "101302",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101302/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101302-challenger.png",
+      "bytes": 51753,
+      "width": 256,
+      "height": 256,
+      "sha256": "539c37b6a90f285a419441ebb92bcfa72d0582bf2d79f0c4efcd178510d5115c"
+    },
+    {
+      "id": "101302",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101302/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101302-diamond.png",
+      "bytes": 37462,
+      "width": 256,
+      "height": 256,
+      "sha256": "32695a85e26649f5b81efc7839341069e76e2007e3238e38afe2bcc0ab68dd4e"
+    },
+    {
+      "id": "101302",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101302/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101302-gold.png",
+      "bytes": 37063,
+      "width": 256,
+      "height": 256,
+      "sha256": "d7bc6c6ff576ddbf978e12543c87fc41dee7508207b5f41db3aaef5e7d3c9d44"
+    },
+    {
+      "id": "101302",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101302/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101302-grandmaster.png",
+      "bytes": 52128,
+      "width": 256,
+      "height": 256,
+      "sha256": "f4011d464fe196e5eb2461c75217fcc444f642a0fe2c9a2e99f416682e1ebf76"
+    },
+    {
+      "id": "101302",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101302/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101302-iron.png",
+      "bytes": 35127,
+      "width": 256,
+      "height": 256,
+      "sha256": "76d35b2752299f4e00e01c2256063961a88387dd8b53f0436e1c15339b767ac7"
+    },
+    {
+      "id": "101302",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101302/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101302-master.png",
+      "bytes": 48022,
+      "width": 256,
+      "height": 256,
+      "sha256": "0f91b69d4fbeadfe06ce8022ac535cb950cb79f4d23b56b60cea636153bd1fbc"
+    },
+    {
+      "id": "101302",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101302/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101302-platinum.png",
+      "bytes": 37250,
+      "width": 256,
+      "height": 256,
+      "sha256": "64db6c323c5304b6aac3909f53a6aab84f7648437cb7f99dab5308d9a6fb23ca"
+    },
+    {
+      "id": "101302",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101302/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101302-silver.png",
+      "bytes": 34672,
+      "width": 256,
+      "height": 256,
+      "sha256": "8b6877eee8af86055fc9e4ab5ce77a11c813fa0985f0b8f6302bc1f437b70ffa"
+    },
+    {
+      "id": "101303",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101303/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101303-bronze.png",
+      "bytes": 30532,
+      "width": 256,
+      "height": 256,
+      "sha256": "edffa9a422086285f956e671408cf9cb353d3b6515838ac766fe16f6d2e6299e"
+    },
+    {
+      "id": "101303",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101303/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101303-challenger.png",
+      "bytes": 51550,
+      "width": 256,
+      "height": 256,
+      "sha256": "2aaa3476630b0a575cfbcff834efe9f2b094bb54b31d245ffe131ef3f26fea15"
+    },
+    {
+      "id": "101303",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101303/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101303-diamond.png",
+      "bytes": 36807,
+      "width": 256,
+      "height": 256,
+      "sha256": "622cf3739a08712d2ae9cfde9af6d17721a3cbd3a8a3530395342bb922fb89a3"
+    },
+    {
+      "id": "101303",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101303/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101303-gold.png",
+      "bytes": 36457,
+      "width": 256,
+      "height": 256,
+      "sha256": "3e0d002f96263d07a0bfc774860624033941444a5f2f5effb71b4122858d18a3"
+    },
+    {
+      "id": "101303",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101303/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101303-grandmaster.png",
+      "bytes": 50246,
+      "width": 256,
+      "height": 256,
+      "sha256": "d25dc3caff204fc295137308ee2688da240afd2cb63b72aac7832f56870594eb"
+    },
+    {
+      "id": "101303",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101303/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101303-iron.png",
+      "bytes": 33839,
+      "width": 256,
+      "height": 256,
+      "sha256": "766967ec0f3043d99d2a3d8fc925d2f922051d9f95e92b74b65e9f7d1c11f550"
+    },
+    {
+      "id": "101303",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101303/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101303-master.png",
+      "bytes": 46593,
+      "width": 256,
+      "height": 256,
+      "sha256": "0cd69d73c080b58a7480c756c1fd91aac0294051db782079fbe879d352c6d547"
+    },
+    {
+      "id": "101303",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101303/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101303-platinum.png",
+      "bytes": 37224,
+      "width": 256,
+      "height": 256,
+      "sha256": "b2166ba46793e28634cf966ebc2258eb1ee4504105e594104294b930f1bb43c5"
+    },
+    {
+      "id": "101303",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101303/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101303-silver.png",
+      "bytes": 32598,
+      "width": 256,
+      "height": 256,
+      "sha256": "836579aa5c01ccb6cf573d41f5f70fc610df63d671438f7028b5d82acac39736"
+    },
+    {
+      "id": "101304",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101304/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101304-bronze.png",
+      "bytes": 35799,
+      "width": 256,
+      "height": 256,
+      "sha256": "e1e03cb682b72d3b6aeea4302238cc67855d072e4808c2b11737cc03df9d4db7"
+    },
+    {
+      "id": "101304",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101304/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101304-challenger.png",
+      "bytes": 58386,
+      "width": 256,
+      "height": 256,
+      "sha256": "e41866dbec3796ac4802f325ebec1daa9e0d7eb8e02fddb5b55c5f275e3bab32"
+    },
+    {
+      "id": "101304",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101304/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101304-diamond.png",
+      "bytes": 42645,
+      "width": 256,
+      "height": 256,
+      "sha256": "77226bbcdae92e98071f57c2dee5027fe1fb303f826394dcaba26b342e070f7c"
+    },
+    {
+      "id": "101304",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101304/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101304-gold.png",
+      "bytes": 41581,
+      "width": 256,
+      "height": 256,
+      "sha256": "7b615b4025b194534360cb7de29277b9d1bc11d4d5df167844f95f2e62feb417"
+    },
+    {
+      "id": "101304",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101304/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101304-grandmaster.png",
+      "bytes": 55951,
+      "width": 256,
+      "height": 256,
+      "sha256": "3549594755fa8ece7b2469c0663c5f106529673c470fb2b0cf73cf2994308aa3"
+    },
+    {
+      "id": "101304",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101304/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101304-iron.png",
+      "bytes": 37318,
+      "width": 256,
+      "height": 256,
+      "sha256": "d8d0472442aef4b569250fb63df00da351ffab1440e602564de0afa58a083571"
+    },
+    {
+      "id": "101304",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101304/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101304-master.png",
+      "bytes": 53070,
+      "width": 256,
+      "height": 256,
+      "sha256": "fa94a651507279cc4dd55f0cca5f49df34da73936b20bd75dfa817f8250e33dc"
+    },
+    {
+      "id": "101304",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101304/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101304-platinum.png",
+      "bytes": 41521,
+      "width": 256,
+      "height": 256,
+      "sha256": "273026b4b945a1a91e44bae73799c72e329d54bebbc06f7fd94d0f73c4b98e4e"
+    },
+    {
+      "id": "101304",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101304/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101304-silver.png",
+      "bytes": 39326,
+      "width": 256,
+      "height": 256,
+      "sha256": "6e147a3e28808e7245d78aa3a736d50e0b2ef2785cb3294a86c978bee2f6a18e"
+    },
+    {
+      "id": "101305",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101305/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101305-bronze.png",
+      "bytes": 37050,
+      "width": 256,
+      "height": 256,
+      "sha256": "f1c1d0b813051a3a1743da9de1bf23bedbe9b56fb56cbd2f58080a66128d301c"
+    },
+    {
+      "id": "101305",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101305/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101305-challenger.png",
+      "bytes": 59513,
+      "width": 256,
+      "height": 256,
+      "sha256": "94b6d609c11e3453de5508bfe4ddc18bb8eac4da92b4ed5d707a353c9281327b"
+    },
+    {
+      "id": "101305",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101305/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101305-diamond.png",
+      "bytes": 42970,
+      "width": 256,
+      "height": 256,
+      "sha256": "de8fc50061b421111ed0247783eb821a15c0dab8bdf89210727ad452b68541ea"
+    },
+    {
+      "id": "101305",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101305/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101305-gold.png",
+      "bytes": 41170,
+      "width": 256,
+      "height": 256,
+      "sha256": "8b53d08c6599df903b2fc2a5399cd5aaeffc3c641bddf9fc7df23247f5ffa7eb"
+    },
+    {
+      "id": "101305",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101305/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101305-grandmaster.png",
+      "bytes": 57404,
+      "width": 256,
+      "height": 256,
+      "sha256": "7352cb234ef4124015933f36ccbf75620ececc1a100d2bfd7a3e31ada57fc8f0"
+    },
+    {
+      "id": "101305",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101305/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101305-iron.png",
+      "bytes": 38295,
+      "width": 256,
+      "height": 256,
+      "sha256": "fadf2a44b8fcfcbe387dee8e652dd6488d0bf2e886512f8a2244aa388cbb4cbf"
+    },
+    {
+      "id": "101305",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101305/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101305-master.png",
+      "bytes": 54784,
+      "width": 256,
+      "height": 256,
+      "sha256": "85b6d176aad046ae71b646a52e288f5b3d9fb8e49e82bd8b218a30292b4f9fe4"
+    },
+    {
+      "id": "101305",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101305/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101305-platinum.png",
+      "bytes": 41764,
+      "width": 256,
+      "height": 256,
+      "sha256": "417a1fd8c3f3723ed2999500a64e2199179a5fa7dda617de0f2141879474f1dd"
+    },
+    {
+      "id": "101305",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101305/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101305-silver.png",
+      "bytes": 40001,
+      "width": 256,
+      "height": 256,
+      "sha256": "88be20565ecf25dc936fa6789452ad641f92c4f486c548829f7ade11b2ad7984"
+    },
+    {
+      "id": "101306",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101306/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101306-bronze.png",
+      "bytes": 33238,
+      "width": 256,
+      "height": 256,
+      "sha256": "b290fa28099d6bf31b0cd9cbbbd5bc58332b29f3a0ee1d27866c55f3fbf7dce1"
+    },
+    {
+      "id": "101306",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101306/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101306-challenger.png",
+      "bytes": 52303,
+      "width": 256,
+      "height": 256,
+      "sha256": "d677aa4700851e2e3afa9e3d0d4b2a45c270745cb3a8c402713507227f7c03ee"
+    },
+    {
+      "id": "101306",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101306/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101306-diamond.png",
+      "bytes": 38902,
+      "width": 256,
+      "height": 256,
+      "sha256": "e82cbe41c2a6742162572014352769cd174d4ef812d5469435c07c00790cc77e"
+    },
+    {
+      "id": "101306",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101306/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101306-gold.png",
+      "bytes": 39453,
+      "width": 256,
+      "height": 256,
+      "sha256": "e473477a40deb18f5f6865333b128ea40759f2a8de3d79833b428f92782b4b73"
+    },
+    {
+      "id": "101306",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101306/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101306-grandmaster.png",
+      "bytes": 53132,
+      "width": 256,
+      "height": 256,
+      "sha256": "d4e9ba9c030de472b6eb6e9aaa7b4df86260517db6dd55d08e54d5a0dd7ef1e8"
+    },
+    {
+      "id": "101306",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101306/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101306-iron.png",
+      "bytes": 36027,
+      "width": 256,
+      "height": 256,
+      "sha256": "8a58e17c4d4ccc841ab739f8347501daae93c7a25d664ac310aad3ec79ced12a"
+    },
+    {
+      "id": "101306",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101306/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101306-master.png",
+      "bytes": 49294,
+      "width": 256,
+      "height": 256,
+      "sha256": "93fc7245ff4e4891d08b7e2d07c1de500aac4d058b2b7ccb4fbfcf471357426d"
+    },
+    {
+      "id": "101306",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101306/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101306-platinum.png",
+      "bytes": 38920,
+      "width": 256,
+      "height": 256,
+      "sha256": "2709c70c19806ed237b4511cb65140a008d3190fa0ea035502ae2f2b9480a59b"
+    },
+    {
+      "id": "101306",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101306/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101306-silver.png",
+      "bytes": 35706,
+      "width": 256,
+      "height": 256,
+      "sha256": "de5c9b923a7c65575911dae4c5eb4f0e3a9f9dffd385f9c57c2d0c4acea2464a"
+    },
+    {
+      "id": "101307",
+      "level": "BRONZE",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101307/tokens/bronze.png",
+      "file": "src/renderer/src/assets/challenges/101307-bronze.png",
+      "bytes": 31845,
+      "width": 256,
+      "height": 256,
+      "sha256": "78b99a23f0e61ad00c29537c98fb83c05b9b9ce075641a2fc407756e18693170"
+    },
+    {
+      "id": "101307",
+      "level": "CHALLENGER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101307/tokens/challenger.png",
+      "file": "src/renderer/src/assets/challenges/101307-challenger.png",
+      "bytes": 51177,
+      "width": 256,
+      "height": 256,
+      "sha256": "63155084cae5772e4a0444f701b714c3de82125a57c0cf7dea901b5c4f4f3a5f"
+    },
+    {
+      "id": "101307",
+      "level": "DIAMOND",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101307/tokens/diamond.png",
+      "file": "src/renderer/src/assets/challenges/101307-diamond.png",
+      "bytes": 36705,
+      "width": 256,
+      "height": 256,
+      "sha256": "5fb8589622ad1c88cef0e0f12b06eee1a1f3016b19276c577d4474b0d1d069fd"
+    },
+    {
+      "id": "101307",
+      "level": "GOLD",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101307/tokens/gold.png",
+      "file": "src/renderer/src/assets/challenges/101307-gold.png",
+      "bytes": 35930,
+      "width": 256,
+      "height": 256,
+      "sha256": "f6056c8734f0d80a0b354d413e510f52ec5f1683a09835de0dc869ff312eabfe"
+    },
+    {
+      "id": "101307",
+      "level": "GRANDMASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101307/tokens/grandmaster.png",
+      "file": "src/renderer/src/assets/challenges/101307-grandmaster.png",
+      "bytes": 51675,
+      "width": 256,
+      "height": 256,
+      "sha256": "ba5b4c53ff494c9fb57f7b1e07558e4b20cf1d9576106323e796c17a13a73c4e"
+    },
+    {
+      "id": "101307",
+      "level": "IRON",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101307/tokens/iron.png",
+      "file": "src/renderer/src/assets/challenges/101307-iron.png",
+      "bytes": 35371,
+      "width": 256,
+      "height": 256,
+      "sha256": "5092d81b564b8fc66a84fe699b353f95fc0e9b5f24fc1f23be7a246a0b855c0e"
+    },
+    {
+      "id": "101307",
+      "level": "MASTER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101307/tokens/master.png",
+      "file": "src/renderer/src/assets/challenges/101307-master.png",
+      "bytes": 48044,
+      "width": 256,
+      "height": 256,
+      "sha256": "6742c9ba841056d042cd5d5d5b0b6b1759c9abeb1fbc2bbe08a44ae53f3446f4"
+    },
+    {
+      "id": "101307",
+      "level": "PLATINUM",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101307/tokens/platinum.png",
+      "file": "src/renderer/src/assets/challenges/101307-platinum.png",
+      "bytes": 37008,
+      "width": 256,
+      "height": 256,
+      "sha256": "469ce65ab5eb6eb8cb127e565e00cd44e81633d04c9f895571c4f176b93faf78"
+    },
+    {
+      "id": "101307",
+      "level": "SILVER",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/challenges/config/101307/tokens/silver.png",
+      "file": "src/renderer/src/assets/challenges/101307-silver.png",
+      "bytes": 34439,
+      "width": 256,
+      "height": 256,
+      "sha256": "2cd669b1de8962151f9dcd17a69857fea02a36fb85f9588ec207c186fe685381"
+    }
+  ],
+  "metadataChallengeIds": [
+    "101101",
+    "101102",
+    "101103",
+    "101104",
+    "101105",
+    "101106",
+    "101107",
+    "101108",
+    "101201",
+    "101202",
+    "101203",
+    "101204",
+    "101205",
+    "101206",
+    "101301",
+    "101302",
+    "101303",
+    "101304",
+    "101305",
+    "101306",
+    "101307"
+  ]
+}

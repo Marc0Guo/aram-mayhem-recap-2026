@@ -210,6 +210,8 @@ export interface AccountProfile {
   level: number | null
   region: string
   spellKeys: [string | null, string | null]
+  movementMode?: 'mouse' | 'wasd' | 'unknown'
+  spellBindingVersion?: 2
   masteryScore: number | null
   mastery: Record<string, { level: number; points: number }>
   updatedAt: number

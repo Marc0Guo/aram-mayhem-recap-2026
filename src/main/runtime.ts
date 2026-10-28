@@ -235,7 +235,7 @@ export class AppRuntime {
     if (!this.connection) throw Object.assign(new Error('client-unavailable'), { code: 'client_unavailable' })
     const account = this.current.database.getAccount(accountId)
     if (!account) throw Object.assign(new Error('missing-account'), { code: 'missing_account' })
-    void refreshAccountProfile(this.current.database, accountId, this.connection, this.setting('leagueDir') || 'C:/Riot Games/League of Legends', () => this.offline).then(() => { const event = { runId: 'profile', state: 'complete', discovered: 0, committed: 0, skipped: 0, failed: 0, accountId }; for (const listener of this.listeners) listener(event) }).catch(() => undefined)
+    void refreshAccountProfile(this.current.database, accountId, this.connection, this.discovery.installDir || this.setting('leagueDir') || 'C:/Riot Games/League of Legends', () => this.offline).then(() => { const event = { runId: 'profile', state: 'complete', discovered: 0, committed: 0, skipped: 0, failed: 0, accountId }; for (const listener of this.listeners) listener(event) }).catch(() => undefined)
     const state = this.current.database.readSyncState(accountId)
     const mode = requestedSyncMode(kind, state, CANDIDATE_ADAPTER_VERSION)
     if (kind === 'manual') this.lastManualAt = Date.now()

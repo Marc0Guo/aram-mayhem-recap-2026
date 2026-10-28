@@ -1,3 +1,4 @@
+import { isFinalEquipmentItem } from './final-items'
 import type { ActivityDay, AugmentRow, ChampionRow, CoverageGap, CoverageState, EntityFilter, ItemRow, Metric, MetricRow, MetricsResult, ResultState } from './types'
 import { eachLocalDate, formatLocalDate, inHalfOpenRange } from './time'
 
@@ -21,7 +22,7 @@ function percent1(part: number, whole: number): number {
 }
 
 function uniqueNonZero(ids: number[]): number[] {
-  return [...new Set(ids.filter((id) => id !== 0 && id !== 2052))]
+  return [...new Set(ids.filter(isFinalEquipmentItem))]
 }
 
 function gapBetween(earlier: number, later: number, gaps: CoverageGap[]): boolean {

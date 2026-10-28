@@ -35,7 +35,7 @@ function row(patch: Partial<MetricRow> & Pick<MetricRow, 'gameId' | 'startUtc'>)
 describe('metrics', () => {
   it('computes the KDA, damage, and item oracles', () => {
     const metrics = computeMetrics([
-      row({ gameId: 'a', startUtc: 1, kills: 10, deaths: 0, assists: 5, championDamage: 6000, durationSeconds: 600, itemIds: [3031, 3031, 0, 2052] }),
+      row({ gameId: 'a', startUtc: 1, kills: 10, deaths: 0, assists: 5, championDamage: 6000, durationSeconds: 600, itemIds: [3031, 3031, 0, 2052, 220013] }),
       row({ gameId: 'b', startUtc: 2, kills: 0, deaths: 5, assists: 5, championDamage: 12000, durationSeconds: 1200, resultState: 'loss', itemIds: [1001] }),
       row({ gameId: 'c', startUtc: 3, kills: 5, deaths: 5, assists: 0, championDamage: 100, durationSeconds: null, resultState: 'unknown', itemIds: [] })
     ], { startUtc: 0, endUtc: 10, timeZone: 'UTC' })
@@ -45,7 +45,7 @@ describe('metrics', () => {
     expect(metrics.damagePerMin.eligibleN).toBe(2)
     expect(metrics.damagePerMin.excludedN).toBeGreaterThan(0)
     expect(metrics.items.rows.find((item) => item.itemId === 3031)?.count).toBe(1)
-    expect(metrics.items.rows.some((item) => item.itemId === 2052)).toBe(false)
+    expect(metrics.items.rows.some((item) => item.itemId === 2052 || item.itemId === 220013)).toBe(false)
     expect(metrics.unknownOutcomes.value).toBe(1)
     expect(formatWinRate(0, 0, 'en')).toBe('—')
   })
